@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width:  100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/vatican_photp.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav	{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+} 
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.25s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+nav ul li:last-child {
+    float: right;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+    border: 1px solid #fff;
+    background: #0F4C81;
+    transition: 1s;
+}
+
+nav .fa{
+    display: none;
+}
+
+.releases{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.photo-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.photo-col img{
+    width: 100%;
+    display: block;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.25s;
+}
+.layer:hover{
+    background: rgba(0,0,0,0.3);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.25s;
+}
+.layer:hover h3{
+    
+    bottom: 50%;
+    opacity: 1;
+}
+.banner{
+    padding-top:100px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/sunset.jpeg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header h1{
+    margin-top: 50px;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2%;
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+    
+}
+.red-btn{
+    border: 1px solid #0F4C81;
+    background: transparent;
+    color: #0F4C81;;
+    
+
+    }
+.red-btn:hover{
+    color: #fff;
+}
+
+.sub-header_photos{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/dumbo.jpeg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header_photos h1{
+    margin-top: 50px;
+}
+
+.photo-gallery {
+    column-count: 3;
+    column-gap: 1em;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.photo-container {
+    break-inside: avoid;
+    margin-bottom: 1em;
+    position: relative;
+    overflow: hidden;
+}
+
+.photo-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.photo-container:hover img {
+    transform: scale(1.05);
+}
+
+.photo-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 95%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    transform: translateY(100%);
+    transition: transform 0.5s ease;
+    text-align: center;
+}
+
+.photo-container:hover .photo-description {
+    transform: translateY(0);
+}
+
+@media (max-width: 1024px) {
+    .photo-gallery {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .photo-gallery {
+        column-count: 1;
+    }
+}
+.photo_title {
+    text-align: center; /* Centers the text horizontally */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 0; /* Adds some padding above and below the title */
+    font-size: 2.5em; /* Adjust the size as needed */
+    
+}
+
+.sub-header_gear{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/gear.jpeg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header_photos h1{
+    margin-top: 50px;
+}
+
+
+/*----Footer----*/
+.footer {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio de manera equitativa entre los elementos */
+    background-color: #607274; /* Establece el color de fondo del rectángulo del footer */
+    color: #fff; /* Establece el color del texto */
+    padding: 100px; /* Agrega espacio alrededor del contenido */
+}
+
+.icons, .policy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.About_me{  
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+} 
+
+
+
+
+.gear-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  .gear-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+  }
+  
+  .gear-item .gear-description,
+  .gear-item .gear-image {
+    flex: 1;
+  }
+  
+  .gear-item .gear-description {
+    padding-right: 20px;
+  }
+  
+  .gear-item .gear-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Alternate the order for the "reverse" class */
+  .gear-item.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .gear-item.reverse .gear-description {
+    padding-left: 20px;
+    padding-right: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .gear-item, .gear-item.reverse {
+      flex-direction: column;
+    }
+  
+    .gear-item .gear-description,
+    .gear-item.reverse .gear-description {
+      padding: 0;
+    }
+  
+    .gear-item .gear-image,
+    .gear-item.reverse .gear-image {
+      margin-bottom: 20px;
+    }
+  }
+
+  .film-roll-section h2 {
+    text-align: center;
+    margin: 0;
+    padding: 40px 0;
+    font-size: 2em;
+  }
+  
+  .film-roll-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px;
+    padding: 0 20px; /* Padding on the sides */
+  }
+  
+  .film-roll {
+    height: 200px; /* Set a fixed height for all containers */
+    overflow: hidden; /* Ensures the image does not overflow the container */
+  }
+  
+  .film-roll img {
+    width: 100%; /* Ensures the image covers the full width */
+    height: 100%; /* Ensures the image covers the full height */
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+    display: block;
+  }
+  
+  .film-roll h3 {
+    text-align: center;
+    margin-bottom: 10px; /* Adjust the space between title and image */
+    font-size: 1em; /* Adjust the size as needed */
+    color: #A9A9A9; /* Adjust the color as needed */
+    /* Any additional styling like font-weight, etc. */
+  }
+  @media (max-width: 768px) {
+    .film-roll-gallery {
+      grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .film-roll-gallery {
+      grid-template-columns: 1fr; /* One column for very small screens */
+    }
+  }
+  
+  
