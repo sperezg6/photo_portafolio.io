@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<!-- saved from url=(0095)http://172.24.30.33:8080/ui/executions/production/defaulters_report/3zZEPNwInmzfym7q8NicU2/logs -->
+<html lang="en" class="dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>3zZEPNwInmzfym7q8NicU2 |  Kestra</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="http://172.24.30.33:8080/ui/favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="http://172.24.30.33:8080/ui/favicon-192x192.png">
+    <meta name="msapplication-TileColor" content="#192A4E">
+    <meta name="theme-color" content="#192A4E">
+    <link rel="stylesheet" href="./3zZEPNwInmzfym7q8NicU2 _ Kestra_files/loader.css">
+    
+    <script>
+        const KESTRA_GOOGLE_ANALYTICS = null;
+        const KESTRA_UI_PATH = "/ui/";
+        const KESTRA_BASE_PATH = function () {
+            const split = KESTRA_UI_PATH.split('/');
+            split.pop();
+            split.pop();
+            return split.join('/') + "/";
+        }();
+        if (localStorage.getItem("theme")) {
+            document.getElementsByTagName("html")[0].classList.add(localStorage.getItem("theme"));
+        }
+    </script>
+  <script type="module" crossorigin="" src="./3zZEPNwInmzfym7q8NicU2 _ Kestra_files/index-844cc445.js"></script>
+  <link rel="stylesheet" href="./3zZEPNwInmzfym7q8NicU2 _ Kestra_files/index-f24fdf59.css">
+<link rel="modulepreload" as="script" crossorigin="" href="http://172.24.30.33:8080/ui/assets/MonacoEditor-319d8284.js"><link rel="stylesheet" href="./3zZEPNwInmzfym7q8NicU2 _ Kestra_files/MonacoEditor-5870f834.css"><link rel="modulepreload" as="script" crossorigin="" href="http://172.24.30.33:8080/ui/assets/yaml-1963d988.js"><link rel="modulepreload" as="script" crossorigin="" href="./3zZEPNwInmzfym7q8NicU2 _ Kestra_files/index-844cc445.js"><style type="text/css" media="screen" class="monaco-colors">.codicon-add:before { content: '\ea60'; }
+.codicon-plus:before { content: '\ea60'; }
+.codicon-gist-new:before { content: '\ea60'; }
+.codicon-repo-create:before { content: '\ea60'; }
+.codicon-lightbulb:before { content: '\ea61'; }
+.codicon-light-bulb:before { content: '\ea61'; }
+.codicon-repo:before { content: '\ea62'; }
+.codicon-repo-delete:before { content: '\ea62'; }
+.codicon-gist-fork:before { content: '\ea63'; }
+.codicon-repo-forked:before { content: '\ea63'; }
+.codicon-git-pull-request:before { content: '\ea64'; }
+.codicon-git-pull-request-abandoned:before { content: '\ea64'; }
+.codicon-record-keys:before { content: '\ea65'; }
+.codicon-keyboard:before { content: '\ea65'; }
+.codicon-tag:before { content: '\ea66'; }
+.codicon-tag-add:before { content: '\ea66'; }
+.codicon-tag-remove:before { content: '\ea66'; }
+.codicon-person:before { content: '\ea67'; }
+.codicon-person-follow:before { content: '\ea67'; }
+.codicon-person-outline:before { content: '\ea67'; }
+.codicon-person-filled:before { content: '\ea67'; }
+.codicon-git-branch:before { content: '\ea68'; }
+.codicon-git-branch-create:before { content: '\ea68'; }
+.codicon-git-branch-delete:before { content: '\ea68'; }
+.codicon-source-control:before { content: '\ea68'; }
+.codicon-mirror:before { content: '\ea69'; }
+.codicon-mirror-public:before { content: '\ea69'; }
+.codicon-star:before { content: '\ea6a'; }
+.codicon-star-add:before { content: '\ea6a'; }
+.codicon-star-delete:before { content: '\ea6a'; }
+.codicon-star-empty:before { content: '\ea6a'; }
+.codicon-comment:before { content: '\ea6b'; }
+.codicon-comment-add:before { content: '\ea6b'; }
+.codicon-alert:before { content: '\ea6c'; }
+.codicon-warning:before { content: '\ea6c'; }
+.codicon-search:before { content: '\ea6d'; }
+.codicon-search-save:before { content: '\ea6d'; }
+.codicon-log-out:before { content: '\ea6e'; }
+.codicon-sign-out:before { content: '\ea6e'; }
+.codicon-log-in:before { content: '\ea6f'; }
+.codicon-sign-in:before { content: '\ea6f'; }
+.codicon-eye:before { content: '\ea70'; }
+.codicon-eye-unwatch:before { content: '\ea70'; }
+.codicon-eye-watch:before { content: '\ea70'; }
+.codicon-circle-filled:before { content: '\ea71'; }
+.codicon-primitive-dot:before { content: '\ea71'; }
+.codicon-close-dirty:before { content: '\ea71'; }
+.codicon-debug-breakpoint:before { content: '\ea71'; }
+.codicon-debug-breakpoint-disabled:before { content: '\ea71'; }
+.codicon-debug-hint:before { content: '\ea71'; }
+.codicon-primitive-square:before { content: '\ea72'; }
+.codicon-edit:before { content: '\ea73'; }
+.codicon-pencil:before { content: '\ea73'; }
+.codicon-info:before { content: '\ea74'; }
+.codicon-issue-opened:before { content: '\ea74'; }
+.codicon-gist-private:before { content: '\ea75'; }
+.codicon-git-fork-private:before { content: '\ea75'; }
+.codicon-lock:before { content: '\ea75'; }
+.codicon-mirror-private:before { content: '\ea75'; }
+.codicon-close:before { content: '\ea76'; }
+.codicon-remove-close:before { content: '\ea76'; }
+.codicon-x:before { content: '\ea76'; }
+.codicon-repo-sync:before { content: '\ea77'; }
+.codicon-sync:before { content: '\ea77'; }
+.codicon-clone:before { content: '\ea78'; }
+.codicon-desktop-download:before { content: '\ea78'; }
+.codicon-beaker:before { content: '\ea79'; }
+.codicon-microscope:before { content: '\ea79'; }
+.codicon-vm:before { content: '\ea7a'; }
+.codicon-device-desktop:before { content: '\ea7a'; }
+.codicon-file:before { content: '\ea7b'; }
+.codicon-file-text:before { content: '\ea7b'; }
+.codicon-more:before { content: '\ea7c'; }
+.codicon-ellipsis:before { content: '\ea7c'; }
+.codicon-kebab-horizontal:before { content: '\ea7c'; }
+.codicon-mail-reply:before { content: '\ea7d'; }
+.codicon-reply:before { content: '\ea7d'; }
+.codicon-organization:before { content: '\ea7e'; }
+.codicon-organization-filled:before { content: '\ea7e'; }
+.codicon-organization-outline:before { content: '\ea7e'; }
+.codicon-new-file:before { content: '\ea7f'; }
+.codicon-file-add:before { content: '\ea7f'; }
+.codicon-new-folder:before { content: '\ea80'; }
+.codicon-file-directory-create:before { content: '\ea80'; }
+.codicon-trash:before { content: '\ea81'; }
+.codicon-trashcan:before { content: '\ea81'; }
+.codicon-history:before { content: '\ea82'; }
+.codicon-clock:before { content: '\ea82'; }
+.codicon-folder:before { content: '\ea83'; }
+.codicon-file-directory:before { content: '\ea83'; }
+.codicon-symbol-folder:before { content: '\ea83'; }
+.codicon-logo-github:before { content: '\ea84'; }
+.codicon-mark-github:before { content: '\ea84'; }
+.codicon-github:before { content: '\ea84'; }
+.codicon-terminal:before { content: '\ea85'; }
+.codicon-console:before { content: '\ea85'; }
+.codicon-repl:before { content: '\ea85'; }
+.codicon-zap:before { content: '\ea86'; }
+.codicon-symbol-event:before { content: '\ea86'; }
+.codicon-error:before { content: '\ea87'; }
+.codicon-stop:before { content: '\ea87'; }
+.codicon-variable:before { content: '\ea88'; }
+.codicon-symbol-variable:before { content: '\ea88'; }
+.codicon-array:before { content: '\ea8a'; }
+.codicon-symbol-array:before { content: '\ea8a'; }
+.codicon-symbol-module:before { content: '\ea8b'; }
+.codicon-symbol-package:before { content: '\ea8b'; }
+.codicon-symbol-namespace:before { content: '\ea8b'; }
+.codicon-symbol-object:before { content: '\ea8b'; }
+.codicon-symbol-method:before { content: '\ea8c'; }
+.codicon-symbol-function:before { content: '\ea8c'; }
+.codicon-symbol-constructor:before { content: '\ea8c'; }
+.codicon-symbol-boolean:before { content: '\ea8f'; }
+.codicon-symbol-null:before { content: '\ea8f'; }
+.codicon-symbol-numeric:before { content: '\ea90'; }
+.codicon-symbol-number:before { content: '\ea90'; }
+.codicon-symbol-structure:before { content: '\ea91'; }
+.codicon-symbol-struct:before { content: '\ea91'; }
+.codicon-symbol-parameter:before { content: '\ea92'; }
+.codicon-symbol-type-parameter:before { content: '\ea92'; }
+.codicon-symbol-key:before { content: '\ea93'; }
+.codicon-symbol-text:before { content: '\ea93'; }
+.codicon-symbol-reference:before { content: '\ea94'; }
+.codicon-go-to-file:before { content: '\ea94'; }
+.codicon-symbol-enum:before { content: '\ea95'; }
+.codicon-symbol-value:before { content: '\ea95'; }
+.codicon-symbol-ruler:before { content: '\ea96'; }
+.codicon-symbol-unit:before { content: '\ea96'; }
+.codicon-activate-breakpoints:before { content: '\ea97'; }
+.codicon-archive:before { content: '\ea98'; }
+.codicon-arrow-both:before { content: '\ea99'; }
+.codicon-arrow-down:before { content: '\ea9a'; }
+.codicon-arrow-left:before { content: '\ea9b'; }
+.codicon-arrow-right:before { content: '\ea9c'; }
+.codicon-arrow-small-down:before { content: '\ea9d'; }
+.codicon-arrow-small-left:before { content: '\ea9e'; }
+.codicon-arrow-small-right:before { content: '\ea9f'; }
+.codicon-arrow-small-up:before { content: '\eaa0'; }
+.codicon-arrow-up:before { content: '\eaa1'; }
+.codicon-bell:before { content: '\eaa2'; }
+.codicon-bold:before { content: '\eaa3'; }
+.codicon-book:before { content: '\eaa4'; }
+.codicon-bookmark:before { content: '\eaa5'; }
+.codicon-debug-breakpoint-conditional-unverified:before { content: '\eaa6'; }
+.codicon-debug-breakpoint-conditional:before { content: '\eaa7'; }
+.codicon-debug-breakpoint-conditional-disabled:before { content: '\eaa7'; }
+.codicon-debug-breakpoint-data-unverified:before { content: '\eaa8'; }
+.codicon-debug-breakpoint-data:before { content: '\eaa9'; }
+.codicon-debug-breakpoint-data-disabled:before { content: '\eaa9'; }
+.codicon-debug-breakpoint-log-unverified:before { content: '\eaaa'; }
+.codicon-debug-breakpoint-log:before { content: '\eaab'; }
+.codicon-debug-breakpoint-log-disabled:before { content: '\eaab'; }
+.codicon-briefcase:before { content: '\eaac'; }
+.codicon-broadcast:before { content: '\eaad'; }
+.codicon-browser:before { content: '\eaae'; }
+.codicon-bug:before { content: '\eaaf'; }
+.codicon-calendar:before { content: '\eab0'; }
+.codicon-case-sensitive:before { content: '\eab1'; }
+.codicon-check:before { content: '\eab2'; }
+.codicon-checklist:before { content: '\eab3'; }
+.codicon-chevron-down:before { content: '\eab4'; }
+.codicon-drop-down-button:before { content: '\eab4'; }
+.codicon-chevron-left:before { content: '\eab5'; }
+.codicon-chevron-right:before { content: '\eab6'; }
+.codicon-chevron-up:before { content: '\eab7'; }
+.codicon-chrome-close:before { content: '\eab8'; }
+.codicon-chrome-maximize:before { content: '\eab9'; }
+.codicon-chrome-minimize:before { content: '\eaba'; }
+.codicon-chrome-restore:before { content: '\eabb'; }
+.codicon-circle:before { content: '\eabc'; }
+.codicon-circle-outline:before { content: '\eabc'; }
+.codicon-debug-breakpoint-unverified:before { content: '\eabc'; }
+.codicon-circle-slash:before { content: '\eabd'; }
+.codicon-circuit-board:before { content: '\eabe'; }
+.codicon-clear-all:before { content: '\eabf'; }
+.codicon-clippy:before { content: '\eac0'; }
+.codicon-close-all:before { content: '\eac1'; }
+.codicon-cloud-download:before { content: '\eac2'; }
+.codicon-cloud-upload:before { content: '\eac3'; }
+.codicon-code:before { content: '\eac4'; }
+.codicon-collapse-all:before { content: '\eac5'; }
+.codicon-color-mode:before { content: '\eac6'; }
+.codicon-comment-discussion:before { content: '\eac7'; }
+.codicon-compare-changes:before { content: '\eafd'; }
+.codicon-credit-card:before { content: '\eac9'; }
+.codicon-dash:before { content: '\eacc'; }
+.codicon-dashboard:before { content: '\eacd'; }
+.codicon-database:before { content: '\eace'; }
+.codicon-debug-continue:before { content: '\eacf'; }
+.codicon-debug-disconnect:before { content: '\ead0'; }
+.codicon-debug-pause:before { content: '\ead1'; }
+.codicon-debug-restart:before { content: '\ead2'; }
+.codicon-debug-start:before { content: '\ead3'; }
+.codicon-debug-step-into:before { content: '\ead4'; }
+.codicon-debug-step-out:before { content: '\ead5'; }
+.codicon-debug-step-over:before { content: '\ead6'; }
+.codicon-debug-stop:before { content: '\ead7'; }
+.codicon-debug:before { content: '\ead8'; }
+.codicon-device-camera-video:before { content: '\ead9'; }
+.codicon-device-camera:before { content: '\eada'; }
+.codicon-device-mobile:before { content: '\eadb'; }
+.codicon-diff-added:before { content: '\eadc'; }
+.codicon-diff-ignored:before { content: '\eadd'; }
+.codicon-diff-modified:before { content: '\eade'; }
+.codicon-diff-removed:before { content: '\eadf'; }
+.codicon-diff-renamed:before { content: '\eae0'; }
+.codicon-diff:before { content: '\eae1'; }
+.codicon-discard:before { content: '\eae2'; }
+.codicon-editor-layout:before { content: '\eae3'; }
+.codicon-empty-window:before { content: '\eae4'; }
+.codicon-exclude:before { content: '\eae5'; }
+.codicon-extensions:before { content: '\eae6'; }
+.codicon-eye-closed:before { content: '\eae7'; }
+.codicon-file-binary:before { content: '\eae8'; }
+.codicon-file-code:before { content: '\eae9'; }
+.codicon-file-media:before { content: '\eaea'; }
+.codicon-file-pdf:before { content: '\eaeb'; }
+.codicon-file-submodule:before { content: '\eaec'; }
+.codicon-file-symlink-directory:before { content: '\eaed'; }
+.codicon-file-symlink-file:before { content: '\eaee'; }
+.codicon-file-zip:before { content: '\eaef'; }
+.codicon-files:before { content: '\eaf0'; }
+.codicon-filter:before { content: '\eaf1'; }
+.codicon-flame:before { content: '\eaf2'; }
+.codicon-fold-down:before { content: '\eaf3'; }
+.codicon-fold-up:before { content: '\eaf4'; }
+.codicon-fold:before { content: '\eaf5'; }
+.codicon-folder-active:before { content: '\eaf6'; }
+.codicon-folder-opened:before { content: '\eaf7'; }
+.codicon-gear:before { content: '\eaf8'; }
+.codicon-gift:before { content: '\eaf9'; }
+.codicon-gist-secret:before { content: '\eafa'; }
+.codicon-gist:before { content: '\eafb'; }
+.codicon-git-commit:before { content: '\eafc'; }
+.codicon-git-compare:before { content: '\eafd'; }
+.codicon-git-merge:before { content: '\eafe'; }
+.codicon-github-action:before { content: '\eaff'; }
+.codicon-github-alt:before { content: '\eb00'; }
+.codicon-globe:before { content: '\eb01'; }
+.codicon-grabber:before { content: '\eb02'; }
+.codicon-graph:before { content: '\eb03'; }
+.codicon-gripper:before { content: '\eb04'; }
+.codicon-heart:before { content: '\eb05'; }
+.codicon-home:before { content: '\eb06'; }
+.codicon-horizontal-rule:before { content: '\eb07'; }
+.codicon-hubot:before { content: '\eb08'; }
+.codicon-inbox:before { content: '\eb09'; }
+.codicon-issue-closed:before { content: '\eba4'; }
+.codicon-issue-reopened:before { content: '\eb0b'; }
+.codicon-issues:before { content: '\eb0c'; }
+.codicon-italic:before { content: '\eb0d'; }
+.codicon-jersey:before { content: '\eb0e'; }
+.codicon-json:before { content: '\eb0f'; }
+.codicon-bracket:before { content: '\eb0f'; }
+.codicon-kebab-vertical:before { content: '\eb10'; }
+.codicon-key:before { content: '\eb11'; }
+.codicon-law:before { content: '\eb12'; }
+.codicon-lightbulb-autofix:before { content: '\eb13'; }
+.codicon-link-external:before { content: '\eb14'; }
+.codicon-link:before { content: '\eb15'; }
+.codicon-list-ordered:before { content: '\eb16'; }
+.codicon-list-unordered:before { content: '\eb17'; }
+.codicon-live-share:before { content: '\eb18'; }
+.codicon-loading:before { content: '\eb19'; }
+.codicon-location:before { content: '\eb1a'; }
+.codicon-mail-read:before { content: '\eb1b'; }
+.codicon-mail:before { content: '\eb1c'; }
+.codicon-markdown:before { content: '\eb1d'; }
+.codicon-megaphone:before { content: '\eb1e'; }
+.codicon-mention:before { content: '\eb1f'; }
+.codicon-milestone:before { content: '\eb20'; }
+.codicon-mortar-board:before { content: '\eb21'; }
+.codicon-move:before { content: '\eb22'; }
+.codicon-multiple-windows:before { content: '\eb23'; }
+.codicon-mute:before { content: '\eb24'; }
+.codicon-no-newline:before { content: '\eb25'; }
+.codicon-note:before { content: '\eb26'; }
+.codicon-octoface:before { content: '\eb27'; }
+.codicon-open-preview:before { content: '\eb28'; }
+.codicon-package:before { content: '\eb29'; }
+.codicon-paintcan:before { content: '\eb2a'; }
+.codicon-pin:before { content: '\eb2b'; }
+.codicon-play:before { content: '\eb2c'; }
+.codicon-run:before { content: '\eb2c'; }
+.codicon-plug:before { content: '\eb2d'; }
+.codicon-preserve-case:before { content: '\eb2e'; }
+.codicon-preview:before { content: '\eb2f'; }
+.codicon-project:before { content: '\eb30'; }
+.codicon-pulse:before { content: '\eb31'; }
+.codicon-question:before { content: '\eb32'; }
+.codicon-quote:before { content: '\eb33'; }
+.codicon-radio-tower:before { content: '\eb34'; }
+.codicon-reactions:before { content: '\eb35'; }
+.codicon-references:before { content: '\eb36'; }
+.codicon-refresh:before { content: '\eb37'; }
+.codicon-regex:before { content: '\eb38'; }
+.codicon-remote-explorer:before { content: '\eb39'; }
+.codicon-remote:before { content: '\eb3a'; }
+.codicon-remove:before { content: '\eb3b'; }
+.codicon-replace-all:before { content: '\eb3c'; }
+.codicon-replace:before { content: '\eb3d'; }
+.codicon-repo-clone:before { content: '\eb3e'; }
+.codicon-repo-force-push:before { content: '\eb3f'; }
+.codicon-repo-pull:before { content: '\eb40'; }
+.codicon-repo-push:before { content: '\eb41'; }
+.codicon-report:before { content: '\eb42'; }
+.codicon-request-changes:before { content: '\eb43'; }
+.codicon-rocket:before { content: '\eb44'; }
+.codicon-root-folder-opened:before { content: '\eb45'; }
+.codicon-root-folder:before { content: '\eb46'; }
+.codicon-rss:before { content: '\eb47'; }
+.codicon-ruby:before { content: '\eb48'; }
+.codicon-save-all:before { content: '\eb49'; }
+.codicon-save-as:before { content: '\eb4a'; }
+.codicon-save:before { content: '\eb4b'; }
+.codicon-screen-full:before { content: '\eb4c'; }
+.codicon-screen-normal:before { content: '\eb4d'; }
+.codicon-search-stop:before { content: '\eb4e'; }
+.codicon-server:before { content: '\eb50'; }
+.codicon-settings-gear:before { content: '\eb51'; }
+.codicon-settings:before { content: '\eb52'; }
+.codicon-shield:before { content: '\eb53'; }
+.codicon-smiley:before { content: '\eb54'; }
+.codicon-sort-precedence:before { content: '\eb55'; }
+.codicon-split-horizontal:before { content: '\eb56'; }
+.codicon-split-vertical:before { content: '\eb57'; }
+.codicon-squirrel:before { content: '\eb58'; }
+.codicon-star-full:before { content: '\eb59'; }
+.codicon-star-half:before { content: '\eb5a'; }
+.codicon-symbol-class:before { content: '\eb5b'; }
+.codicon-symbol-color:before { content: '\eb5c'; }
+.codicon-symbol-customcolor:before { content: '\eb5c'; }
+.codicon-symbol-constant:before { content: '\eb5d'; }
+.codicon-symbol-enum-member:before { content: '\eb5e'; }
+.codicon-symbol-field:before { content: '\eb5f'; }
+.codicon-symbol-file:before { content: '\eb60'; }
+.codicon-symbol-interface:before { content: '\eb61'; }
+.codicon-symbol-keyword:before { content: '\eb62'; }
+.codicon-symbol-misc:before { content: '\eb63'; }
+.codicon-symbol-operator:before { content: '\eb64'; }
+.codicon-symbol-property:before { content: '\eb65'; }
+.codicon-wrench:before { content: '\eb65'; }
+.codicon-wrench-subaction:before { content: '\eb65'; }
+.codicon-symbol-snippet:before { content: '\eb66'; }
+.codicon-tasklist:before { content: '\eb67'; }
+.codicon-telescope:before { content: '\eb68'; }
+.codicon-text-size:before { content: '\eb69'; }
+.codicon-three-bars:before { content: '\eb6a'; }
+.codicon-thumbsdown:before { content: '\eb6b'; }
+.codicon-thumbsup:before { content: '\eb6c'; }
+.codicon-tools:before { content: '\eb6d'; }
+.codicon-triangle-down:before { content: '\eb6e'; }
+.codicon-triangle-left:before { content: '\eb6f'; }
+.codicon-triangle-right:before { content: '\eb70'; }
+.codicon-triangle-up:before { content: '\eb71'; }
+.codicon-twitter:before { content: '\eb72'; }
+.codicon-unfold:before { content: '\eb73'; }
+.codicon-unlock:before { content: '\eb74'; }
+.codicon-unmute:before { content: '\eb75'; }
+.codicon-unverified:before { content: '\eb76'; }
+.codicon-verified:before { content: '\eb77'; }
+.codicon-versions:before { content: '\eb78'; }
+.codicon-vm-active:before { content: '\eb79'; }
+.codicon-vm-outline:before { content: '\eb7a'; }
+.codicon-vm-running:before { content: '\eb7b'; }
+.codicon-watch:before { content: '\eb7c'; }
+.codicon-whitespace:before { content: '\eb7d'; }
+.codicon-whole-word:before { content: '\eb7e'; }
+.codicon-window:before { content: '\eb7f'; }
+.codicon-word-wrap:before { content: '\eb80'; }
+.codicon-zoom-in:before { content: '\eb81'; }
+.codicon-zoom-out:before { content: '\eb82'; }
+.codicon-list-filter:before { content: '\eb83'; }
+.codicon-list-flat:before { content: '\eb84'; }
+.codicon-list-selection:before { content: '\eb85'; }
+.codicon-selection:before { content: '\eb85'; }
+.codicon-list-tree:before { content: '\eb86'; }
+.codicon-debug-breakpoint-function-unverified:before { content: '\eb87'; }
+.codicon-debug-breakpoint-function:before { content: '\eb88'; }
+.codicon-debug-breakpoint-function-disabled:before { content: '\eb88'; }
+.codicon-debug-stackframe-active:before { content: '\eb89'; }
+.codicon-circle-small-filled:before { content: '\eb8a'; }
+.codicon-debug-stackframe-dot:before { content: '\eb8a'; }
+.codicon-debug-stackframe:before { content: '\eb8b'; }
+.codicon-debug-stackframe-focused:before { content: '\eb8b'; }
+.codicon-debug-breakpoint-unsupported:before { content: '\eb8c'; }
+.codicon-symbol-string:before { content: '\eb8d'; }
+.codicon-debug-reverse-continue:before { content: '\eb8e'; }
+.codicon-debug-step-back:before { content: '\eb8f'; }
+.codicon-debug-restart-frame:before { content: '\eb90'; }
+.codicon-call-incoming:before { content: '\eb92'; }
+.codicon-call-outgoing:before { content: '\eb93'; }
+.codicon-menu:before { content: '\eb94'; }
+.codicon-expand-all:before { content: '\eb95'; }
+.codicon-feedback:before { content: '\eb96'; }
+.codicon-group-by-ref-type:before { content: '\eb97'; }
+.codicon-ungroup-by-ref-type:before { content: '\eb98'; }
+.codicon-account:before { content: '\eb99'; }
+.codicon-bell-dot:before { content: '\eb9a'; }
+.codicon-debug-console:before { content: '\eb9b'; }
+.codicon-library:before { content: '\eb9c'; }
+.codicon-output:before { content: '\eb9d'; }
+.codicon-run-all:before { content: '\eb9e'; }
+.codicon-sync-ignored:before { content: '\eb9f'; }
+.codicon-pinned:before { content: '\eba0'; }
+.codicon-github-inverted:before { content: '\eba1'; }
+.codicon-debug-alt:before { content: '\eb91'; }
+.codicon-server-process:before { content: '\eba2'; }
+.codicon-server-environment:before { content: '\eba3'; }
+.codicon-pass:before { content: '\eba4'; }
+.codicon-stop-circle:before { content: '\eba5'; }
+.codicon-play-circle:before { content: '\eba6'; }
+.codicon-record:before { content: '\eba7'; }
+.codicon-debug-alt-small:before { content: '\eba8'; }
+.codicon-vm-connect:before { content: '\eba9'; }
+.codicon-cloud:before { content: '\ebaa'; }
+.codicon-merge:before { content: '\ebab'; }
+.codicon-export:before { content: '\ebac'; }
+.codicon-graph-left:before { content: '\ebad'; }
+.codicon-magnet:before { content: '\ebae'; }
+.codicon-notebook:before { content: '\ebaf'; }
+.codicon-redo:before { content: '\ebb0'; }
+.codicon-check-all:before { content: '\ebb1'; }
+.codicon-pinned-dirty:before { content: '\ebb2'; }
+.codicon-pass-filled:before { content: '\ebb3'; }
+.codicon-circle-large-filled:before { content: '\ebb4'; }
+.codicon-circle-large:before { content: '\ebb5'; }
+.codicon-circle-large-outline:before { content: '\ebb5'; }
+.codicon-combine:before { content: '\ebb6'; }
+.codicon-gather:before { content: '\ebb6'; }
+.codicon-table:before { content: '\ebb7'; }
+.codicon-variable-group:before { content: '\ebb8'; }
+.codicon-type-hierarchy:before { content: '\ebb9'; }
+.codicon-type-hierarchy-sub:before { content: '\ebba'; }
+.codicon-type-hierarchy-super:before { content: '\ebbb'; }
+.codicon-git-pull-request-create:before { content: '\ebbc'; }
+.codicon-run-above:before { content: '\ebbd'; }
+.codicon-run-below:before { content: '\ebbe'; }
+.codicon-notebook-template:before { content: '\ebbf'; }
+.codicon-debug-rerun:before { content: '\ebc0'; }
+.codicon-workspace-trusted:before { content: '\ebc1'; }
+.codicon-workspace-untrusted:before { content: '\ebc2'; }
+.codicon-workspace-unspecified:before { content: '\ebc3'; }
+.codicon-terminal-cmd:before { content: '\ebc4'; }
+.codicon-terminal-debian:before { content: '\ebc5'; }
+.codicon-terminal-linux:before { content: '\ebc6'; }
+.codicon-terminal-powershell:before { content: '\ebc7'; }
+.codicon-terminal-tmux:before { content: '\ebc8'; }
+.codicon-terminal-ubuntu:before { content: '\ebc9'; }
+.codicon-terminal-bash:before { content: '\ebca'; }
+.codicon-arrow-swap:before { content: '\ebcb'; }
+.codicon-copy:before { content: '\ebcc'; }
+.codicon-person-add:before { content: '\ebcd'; }
+.codicon-filter-filled:before { content: '\ebce'; }
+.codicon-wand:before { content: '\ebcf'; }
+.codicon-debug-line-by-line:before { content: '\ebd0'; }
+.codicon-inspect:before { content: '\ebd1'; }
+.codicon-layers:before { content: '\ebd2'; }
+.codicon-layers-dot:before { content: '\ebd3'; }
+.codicon-layers-active:before { content: '\ebd4'; }
+.codicon-compass:before { content: '\ebd5'; }
+.codicon-compass-dot:before { content: '\ebd6'; }
+.codicon-compass-active:before { content: '\ebd7'; }
+.codicon-azure:before { content: '\ebd8'; }
+.codicon-issue-draft:before { content: '\ebd9'; }
+.codicon-git-pull-request-closed:before { content: '\ebda'; }
+.codicon-git-pull-request-draft:before { content: '\ebdb'; }
+.codicon-debug-all:before { content: '\ebdc'; }
+.codicon-debug-coverage:before { content: '\ebdd'; }
+.codicon-run-errors:before { content: '\ebde'; }
+.codicon-folder-library:before { content: '\ebdf'; }
+.codicon-debug-continue-small:before { content: '\ebe0'; }
+.codicon-beaker-stop:before { content: '\ebe1'; }
+.codicon-graph-line:before { content: '\ebe2'; }
+.codicon-graph-scatter:before { content: '\ebe3'; }
+.codicon-pie-chart:before { content: '\ebe4'; }
+.codicon-bracket-dot:before { content: '\ebe5'; }
+.codicon-bracket-error:before { content: '\ebe6'; }
+.codicon-lock-small:before { content: '\ebe7'; }
+.codicon-azure-devops:before { content: '\ebe8'; }
+.codicon-verified-filled:before { content: '\ebe9'; }
+.codicon-newline:before { content: '\ebea'; }
+.codicon-layout:before { content: '\ebeb'; }
+.codicon-layout-activitybar-left:before { content: '\ebec'; }
+.codicon-layout-activitybar-right:before { content: '\ebed'; }
+.codicon-layout-panel-left:before { content: '\ebee'; }
+.codicon-layout-panel-center:before { content: '\ebef'; }
+.codicon-layout-panel-justify:before { content: '\ebf0'; }
+.codicon-layout-panel-right:before { content: '\ebf1'; }
+.codicon-layout-panel:before { content: '\ebf2'; }
+.codicon-layout-sidebar-left:before { content: '\ebf3'; }
+.codicon-layout-sidebar-right:before { content: '\ebf4'; }
+.codicon-layout-statusbar:before { content: '\ebf5'; }
+.codicon-layout-menubar:before { content: '\ebf6'; }
+.codicon-layout-centered:before { content: '\ebf7'; }
+.codicon-layout-sidebar-right-off:before { content: '\ec00'; }
+.codicon-layout-panel-off:before { content: '\ec01'; }
+.codicon-layout-sidebar-left-off:before { content: '\ec02'; }
+.codicon-target:before { content: '\ebf8'; }
+.codicon-indent:before { content: '\ebf9'; }
+.codicon-record-small:before { content: '\ebfa'; }
+.codicon-error-small:before { content: '\ebfb'; }
+.codicon-arrow-circle-down:before { content: '\ebfc'; }
+.codicon-arrow-circle-left:before { content: '\ebfd'; }
+.codicon-arrow-circle-right:before { content: '\ebfe'; }
+.codicon-arrow-circle-up:before { content: '\ebff'; }
+.codicon-heart-filled:before { content: '\ec04'; }
+.codicon-map:before { content: '\ec05'; }
+.codicon-map-filled:before { content: '\ec06'; }
+.codicon-circle-small:before { content: '\ec07'; }
+.codicon-bell-slash:before { content: '\ec08'; }
+.codicon-bell-slash-dot:before { content: '\ec09'; }
+.codicon-comment-unresolved:before { content: '\ec0a'; }
+.codicon-git-pull-request-go-to-changes:before { content: '\ec0b'; }
+.codicon-git-pull-request-new-changes:before { content: '\ec0c'; }
+.codicon-search-fuzzy:before { content: '\ec0d'; }
+.codicon-comment-draft:before { content: '\ec0e'; }
+.codicon-send:before { content: '\ec0f'; }
+.codicon-sparkle:before { content: '\ec10'; }
+.codicon-insert:before { content: '\ec11'; }
+.codicon-dialog-error:before { content: '\ea87'; }
+.codicon-dialog-warning:before { content: '\ea6c'; }
+.codicon-dialog-info:before { content: '\ea74'; }
+.codicon-dialog-close:before { content: '\ea76'; }
+.codicon-tree-item-expanded:before { content: '\eab4'; }
+.codicon-tree-filter-on-type-on:before { content: '\eb83'; }
+.codicon-tree-filter-on-type-off:before { content: '\eb85'; }
+.codicon-tree-filter-clear:before { content: '\ea76'; }
+.codicon-tree-item-loading:before { content: '\eb19'; }
+.codicon-menu-selection:before { content: '\eab2'; }
+.codicon-menu-submenu:before { content: '\eab6'; }
+.codicon-menubar-more:before { content: '\ea7c'; }
+.codicon-scrollbar-button-left:before { content: '\eb6f'; }
+.codicon-scrollbar-button-right:before { content: '\eb70'; }
+.codicon-scrollbar-button-up:before { content: '\eb71'; }
+.codicon-scrollbar-button-down:before { content: '\eb6e'; }
+.codicon-toolbar-more:before { content: '\ea7c'; }
+.codicon-quick-input-back:before { content: '\ea9b'; }
+.codicon-widget-close:before { content: '\ea76'; }
+.codicon-goto-previous-location:before { content: '\eaa1'; }
+.codicon-goto-next-location:before { content: '\ea9a'; }
+.codicon-diff-review-insert:before { content: '\ea60'; }
+.codicon-diff-review-remove:before { content: '\eb3b'; }
+.codicon-diff-review-close:before { content: '\ea76'; }
+.codicon-diff-insert:before { content: '\ea60'; }
+.codicon-diff-remove:before { content: '\eb3b'; }
+.codicon-marker-navigation-next:before { content: '\ea9a'; }
+.codicon-marker-navigation-previous:before { content: '\eaa1'; }
+.codicon-inline-suggestion-hints-next:before { content: '\eab6'; }
+.codicon-inline-suggestion-hints-previous:before { content: '\eab5'; }
+.codicon-find-selection:before { content: '\eb85'; }
+.codicon-find-collapsed:before { content: '\eab6'; }
+.codicon-find-expanded:before { content: '\eab4'; }
+.codicon-find-replace:before { content: '\eb3d'; }
+.codicon-find-replace-all:before { content: '\eb3c'; }
+.codicon-find-previous-match:before { content: '\eaa1'; }
+.codicon-find-next-match:before { content: '\ea9a'; }
+.codicon-folding-expanded:before { content: '\eab4'; }
+.codicon-folding-collapsed:before { content: '\eab6'; }
+.codicon-folding-manual-collapsed:before { content: '\eab6'; }
+.codicon-folding-manual-expanded:before { content: '\eab4'; }
+.codicon-suggest-more-info:before { content: '\eab6'; }
+.codicon-parameter-hints-next:before { content: '\eab4'; }
+.codicon-parameter-hints-previous:before { content: '\eab7'; }
+.codicon-extensions-warning-message:before { content: '\ea6c'; }
+.monaco-editor .inputarea.ime-input { background-color: #1e1e1e; }
+.monaco-editor .line-numbers.dimmed-line-number { color: rgba(133, 133, 133, 0.4); }
+.monaco-editor .view-overlays .current-line { border: 2px solid #282828; }
+.monaco-editor .margin-view-overlays .current-line-margin { border: 2px solid #282828; }
+.monaco-editor .bracket-indent-guide.lvl-0 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-1 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-2 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-3 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-4 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-5 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-6 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-7 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-8 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-9 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-10 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-11 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-12 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-13 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-14 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-15 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-16 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-17 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-18 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-19 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-20 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-21 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-22 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-23 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-24 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-25 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-26 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .bracket-indent-guide.lvl-27 { --guide-color: rgba(255, 215, 0, 0.3); --guide-color-active: #ffd700; }
+.monaco-editor .bracket-indent-guide.lvl-28 { --guide-color: rgba(218, 112, 214, 0.3); --guide-color-active: #da70d6; }
+.monaco-editor .bracket-indent-guide.lvl-29 { --guide-color: rgba(23, 159, 255, 0.3); --guide-color-active: #179fff; }
+.monaco-editor .vertical { box-shadow: 1px 0 0 0 var(--guide-color) inset; }
+.monaco-editor .horizontal-top { border-top: 1px solid var(--guide-color); }
+.monaco-editor .horizontal-bottom { border-bottom: 1px solid var(--guide-color); }
+.monaco-editor .vertical.indent-active { box-shadow: 1px 0 0 0 var(--guide-color-active) inset; }
+.monaco-editor .horizontal-top.indent-active { border-top: 1px solid var(--guide-color-active); }
+.monaco-editor .horizontal-bottom.indent-active { border-bottom: 1px solid var(--guide-color-active); }
+.monaco-editor .cursors-layer .cursor { background-color: #aeafad; border-color: #aeafad; color: #515052; }
+.monaco-editor .unexpected-closing-bracket { color: rgba(255, 18, 18, 0.8); }
+.monaco-editor .bracket-highlighting-0 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-1 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-2 { color: #179fff; }
+.monaco-editor .bracket-highlighting-3 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-4 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-5 { color: #179fff; }
+.monaco-editor .bracket-highlighting-6 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-7 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-8 { color: #179fff; }
+.monaco-editor .bracket-highlighting-9 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-10 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-11 { color: #179fff; }
+.monaco-editor .bracket-highlighting-12 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-13 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-14 { color: #179fff; }
+.monaco-editor .bracket-highlighting-15 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-16 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-17 { color: #179fff; }
+.monaco-editor .bracket-highlighting-18 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-19 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-20 { color: #179fff; }
+.monaco-editor .bracket-highlighting-21 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-22 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-23 { color: #179fff; }
+.monaco-editor .bracket-highlighting-24 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-25 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-26 { color: #179fff; }
+.monaco-editor .bracket-highlighting-27 { color: #ffd700; }
+.monaco-editor .bracket-highlighting-28 { color: #da70d6; }
+.monaco-editor .bracket-highlighting-29 { color: #179fff; }
+.monaco-editor .squiggly-error { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23f14c4c'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-warning { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23cca700'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-info { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%233794ff'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-hint { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%223%22%20width%3D%2212%22%3E%3Cg%20fill%3D%22rgba(238%2C%20238%2C%20238%2C%200.7)%22%3E%3Ccircle%20cx%3D%221%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%225%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%229%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat bottom left; }
+.monaco-editor.showUnused .squiggly-inline-unnecessary { opacity: 0.667; }
+
+	.monaco-editor .diagonal-fill {
+		background-image: linear-gradient(
+			-45deg,
+			rgba(204, 204, 204, 0.2) 12.5%,
+			#0000 12.5%, #0000 50%,
+			rgba(204, 204, 204, 0.2) 50%, rgba(204, 204, 204, 0.2) 62.5%,
+			#0000 62.5%, #0000 100%
+		);
+		background-size: 8px 8px;
+	}
+	
+.monaco-editor .monaco-hover .hover-row:not(:first-child):not(:empty) { border-top: 1px solid rgba(69, 69, 69, 0.5); }
+.monaco-editor .monaco-hover hr { border-top: 1px solid rgba(69, 69, 69, 0.5); }
+.monaco-editor .monaco-hover hr { border-bottom: 0px solid rgba(69, 69, 69, 0.5); }
+.monaco-editor .findMatch { background-color: rgba(234, 92, 0, 0.33); }
+.monaco-editor .currentFindMatch { background-color: #515c6a; }
+.monaco-editor .findScope { background-color: rgba(58, 61, 65, 0.4); }
+.monaco-editor .find-widget { background-color: #252526; }
+.monaco-editor .find-widget { box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.36); }
+.monaco-editor .find-widget { color: #cccccc; }
+.monaco-editor .find-widget.no-results .matchesCount { color: #f48771; }
+.monaco-editor .find-widget .monaco-sash { background-color: #454545; }
+
+		.monaco-editor .find-widget .button:not(.disabled):hover,
+		.monaco-editor .find-widget .codicon-find-selection:hover {
+			background-color: rgba(90, 93, 94, 0.31) !important;
+		}
+	
+.monaco-editor .find-widget .monaco-inputbox.synthetic-focus { outline-color: #007fd4; }
+.monaco-editor .selectionHighlight { background-color: rgba(173, 214, 255, 0.07); }
+.monaco-editor { --vscode-foreground: #cccccc;
+--vscode-disabledForeground: rgba(204, 204, 204, 0.5);
+--vscode-errorForeground: #f48771;
+--vscode-descriptionForeground: rgba(204, 204, 204, 0.7);
+--vscode-icon-foreground: #c5c5c5;
+--vscode-focusBorder: #007fd4;
+--vscode-textSeparator-foreground: rgba(255, 255, 255, 0.18);
+--vscode-textLink-foreground: #3794ff;
+--vscode-textLink-activeForeground: #3794ff;
+--vscode-textPreformat-foreground: #d7ba7d;
+--vscode-textBlockQuote-background: rgba(127, 127, 127, 0.1);
+--vscode-textBlockQuote-border: rgba(0, 122, 204, 0.5);
+--vscode-textCodeBlock-background: rgba(10, 10, 10, 0.4);
+--vscode-widget-shadow: rgba(0, 0, 0, 0.36);
+--vscode-input-background: #3c3c3c;
+--vscode-input-foreground: #cccccc;
+--vscode-inputOption-activeBorder: #007acc;
+--vscode-inputOption-hoverBackground: rgba(90, 93, 94, 0.5);
+--vscode-inputOption-activeBackground: rgba(0, 127, 212, 0.4);
+--vscode-inputOption-activeForeground: #ffffff;
+--vscode-input-placeholderForeground: rgba(204, 204, 204, 0.5);
+--vscode-inputValidation-infoBackground: #063b49;
+--vscode-inputValidation-infoBorder: #007acc;
+--vscode-inputValidation-warningBackground: #352a05;
+--vscode-inputValidation-warningBorder: #b89500;
+--vscode-inputValidation-errorBackground: #5a1d1d;
+--vscode-inputValidation-errorBorder: #be1100;
+--vscode-dropdown-background: #3c3c3c;
+--vscode-dropdown-foreground: #f0f0f0;
+--vscode-dropdown-border: #3c3c3c;
+--vscode-button-foreground: #ffffff;
+--vscode-button-separator: rgba(255, 255, 255, 0.4);
+--vscode-button-background: #0e639c;
+--vscode-button-hoverBackground: #1177bb;
+--vscode-button-secondaryForeground: #ffffff;
+--vscode-button-secondaryBackground: #3a3d41;
+--vscode-button-secondaryHoverBackground: #45494e;
+--vscode-badge-background: #4d4d4d;
+--vscode-badge-foreground: #ffffff;
+--vscode-scrollbar-shadow: #000000;
+--vscode-scrollbarSlider-background: rgba(121, 121, 121, 0.4);
+--vscode-scrollbarSlider-hoverBackground: rgba(100, 100, 100, 0.7);
+--vscode-scrollbarSlider-activeBackground: rgba(191, 191, 191, 0.4);
+--vscode-progressBar-background: #0e70c0;
+--vscode-editorError-foreground: #f14c4c;
+--vscode-editorWarning-foreground: #cca700;
+--vscode-editorInfo-foreground: #3794ff;
+--vscode-editorHint-foreground: rgba(238, 238, 238, 0.7);
+--vscode-sash-hoverBorder: #007fd4;
+--vscode-editor-background: #1e1e1e;
+--vscode-editor-foreground: #d4d4d4;
+--vscode-editorStickyScroll-background: #1e1e1e;
+--vscode-editorStickyScrollHover-background: #2a2d2e;
+--vscode-editorWidget-background: #252526;
+--vscode-editorWidget-foreground: #cccccc;
+--vscode-editorWidget-border: #454545;
+--vscode-quickInput-background: #252526;
+--vscode-quickInput-foreground: #cccccc;
+--vscode-quickInputTitle-background: rgba(255, 255, 255, 0.1);
+--vscode-pickerGroup-foreground: #3794ff;
+--vscode-pickerGroup-border: #3f3f46;
+--vscode-keybindingLabel-background: rgba(128, 128, 128, 0.17);
+--vscode-keybindingLabel-foreground: #cccccc;
+--vscode-keybindingLabel-border: rgba(51, 51, 51, 0.6);
+--vscode-keybindingLabel-bottomBorder: rgba(68, 68, 68, 0.6);
+--vscode-editor-selectionBackground: #264f78;
+--vscode-editor-inactiveSelectionBackground: #3a3d41;
+--vscode-editor-selectionHighlightBackground: rgba(173, 214, 255, 0.15);
+--vscode-editor-findMatchBackground: #515c6a;
+--vscode-editor-findMatchHighlightBackground: rgba(234, 92, 0, 0.33);
+--vscode-editor-findRangeHighlightBackground: rgba(58, 61, 65, 0.4);
+--vscode-searchEditor-findMatchBackground: rgba(234, 92, 0, 0.22);
+--vscode-search-resultsInfoForeground: rgba(204, 204, 204, 0.65);
+--vscode-editor-hoverHighlightBackground: rgba(38, 79, 120, 0.25);
+--vscode-editorHoverWidget-background: #252526;
+--vscode-editorHoverWidget-foreground: #cccccc;
+--vscode-editorHoverWidget-border: #454545;
+--vscode-editorHoverWidget-statusBarBackground: #2c2c2d;
+--vscode-editorLink-activeForeground: #4e94ce;
+--vscode-editorInlayHint-foreground: #ffffff;
+--vscode-editorInlayHint-background: rgba(77, 77, 77, 0.8);
+--vscode-editorInlayHint-typeForeground: #ffffff;
+--vscode-editorInlayHint-typeBackground: rgba(77, 77, 77, 0.8);
+--vscode-editorInlayHint-parameterForeground: #ffffff;
+--vscode-editorInlayHint-parameterBackground: rgba(77, 77, 77, 0.8);
+--vscode-editorLightBulb-foreground: #ffcc00;
+--vscode-editorLightBulbAutoFix-foreground: #75beff;
+--vscode-diffEditor-insertedTextBackground: rgba(156, 204, 44, 0.2);
+--vscode-diffEditor-removedTextBackground: rgba(255, 0, 0, 0.2);
+--vscode-diffEditor-insertedLineBackground: rgba(155, 185, 85, 0.2);
+--vscode-diffEditor-removedLineBackground: rgba(255, 0, 0, 0.2);
+--vscode-diffEditor-diagonalFill: rgba(204, 204, 204, 0.2);
+--vscode-diffEditor-unchangedRegionBackground: #000000;
+--vscode-list-focusOutline: #007fd4;
+--vscode-list-activeSelectionBackground: #04395e;
+--vscode-list-activeSelectionForeground: #ffffff;
+--vscode-list-inactiveSelectionBackground: #37373d;
+--vscode-list-hoverBackground: #2a2d2e;
+--vscode-list-dropBackground: #062f4a;
+--vscode-list-highlightForeground: #2aaaff;
+--vscode-list-focusHighlightForeground: #2aaaff;
+--vscode-list-invalidItemForeground: #b89500;
+--vscode-list-errorForeground: #f88070;
+--vscode-list-warningForeground: #cca700;
+--vscode-listFilterWidget-background: #252526;
+--vscode-listFilterWidget-outline: rgba(0, 0, 0, 0);
+--vscode-listFilterWidget-noMatchesOutline: #be1100;
+--vscode-listFilterWidget-shadow: rgba(0, 0, 0, 0.36);
+--vscode-list-filterMatchBackground: rgba(234, 92, 0, 0.33);
+--vscode-tree-indentGuidesStroke: #585858;
+--vscode-tree-inactiveIndentGuidesStroke: rgba(88, 88, 88, 0.4);
+--vscode-tree-tableColumnsBorder: rgba(204, 204, 204, 0.13);
+--vscode-tree-tableOddRowsBackground: rgba(204, 204, 204, 0.04);
+--vscode-list-deemphasizedForeground: #8c8c8c;
+--vscode-checkbox-background: #3c3c3c;
+--vscode-checkbox-selectBackground: #252526;
+--vscode-checkbox-foreground: #f0f0f0;
+--vscode-checkbox-border: #3c3c3c;
+--vscode-checkbox-selectBorder: #c5c5c5;
+--vscode-quickInputList-focusForeground: #ffffff;
+--vscode-quickInputList-focusBackground: #04395e;
+--vscode-menu-foreground: #f0f0f0;
+--vscode-menu-background: #3c3c3c;
+--vscode-menu-selectionForeground: #ffffff;
+--vscode-menu-selectionBackground: #04395e;
+--vscode-menu-separatorBackground: #606060;
+--vscode-toolbar-hoverBackground: rgba(90, 93, 94, 0.31);
+--vscode-toolbar-activeBackground: rgba(99, 102, 103, 0.31);
+--vscode-editor-snippetTabstopHighlightBackground: rgba(124, 124, 124, 0.3);
+--vscode-editor-snippetFinalTabstopHighlightBorder: #525252;
+--vscode-breadcrumb-foreground: rgba(204, 204, 204, 0.8);
+--vscode-breadcrumb-background: #1e1e1e;
+--vscode-breadcrumb-focusForeground: #e0e0e0;
+--vscode-breadcrumb-activeSelectionForeground: #e0e0e0;
+--vscode-breadcrumbPicker-background: #252526;
+--vscode-merge-currentHeaderBackground: rgba(64, 200, 174, 0.5);
+--vscode-merge-currentContentBackground: rgba(64, 200, 174, 0.2);
+--vscode-merge-incomingHeaderBackground: rgba(64, 166, 255, 0.5);
+--vscode-merge-incomingContentBackground: rgba(64, 166, 255, 0.2);
+--vscode-merge-commonHeaderBackground: rgba(96, 96, 96, 0.4);
+--vscode-merge-commonContentBackground: rgba(96, 96, 96, 0.16);
+--vscode-editorOverviewRuler-currentContentForeground: rgba(64, 200, 174, 0.5);
+--vscode-editorOverviewRuler-incomingContentForeground: rgba(64, 166, 255, 0.5);
+--vscode-editorOverviewRuler-commonContentForeground: rgba(96, 96, 96, 0.4);
+--vscode-editorOverviewRuler-findMatchForeground: rgba(209, 134, 22, 0.49);
+--vscode-editorOverviewRuler-selectionHighlightForeground: rgba(160, 160, 160, 0.8);
+--vscode-minimap-findMatchHighlight: #d18616;
+--vscode-minimap-selectionOccurrenceHighlight: #676767;
+--vscode-minimap-selectionHighlight: #264f78;
+--vscode-minimap-errorHighlight: rgba(255, 18, 18, 0.7);
+--vscode-minimap-warningHighlight: #cca700;
+--vscode-minimap-background: #161822;
+--vscode-minimap-foregroundOpacity: #000000;
+--vscode-minimapSlider-background: rgba(121, 121, 121, 0.2);
+--vscode-minimapSlider-hoverBackground: rgba(100, 100, 100, 0.35);
+--vscode-minimapSlider-activeBackground: rgba(191, 191, 191, 0.2);
+--vscode-problemsErrorIcon-foreground: #f14c4c;
+--vscode-problemsWarningIcon-foreground: #cca700;
+--vscode-problemsInfoIcon-foreground: #3794ff;
+--vscode-charts-foreground: #cccccc;
+--vscode-charts-lines: rgba(204, 204, 204, 0.5);
+--vscode-charts-red: #f14c4c;
+--vscode-charts-blue: #3794ff;
+--vscode-charts-yellow: #cca700;
+--vscode-charts-orange: #d18616;
+--vscode-charts-green: #89d185;
+--vscode-charts-purple: #b180d7;
+--vscode-editor-lineHighlightBorder: #282828;
+--vscode-editor-rangeHighlightBackground: rgba(255, 255, 255, 0.04);
+--vscode-editor-symbolHighlightBackground: rgba(234, 92, 0, 0.33);
+--vscode-editorCursor-foreground: #aeafad;
+--vscode-editorWhitespace-foreground: rgba(227, 228, 226, 0.16);
+--vscode-editorIndentGuide-background: #404040;
+--vscode-editorIndentGuide-activeBackground: #707070;
+--vscode-editorLineNumber-foreground: #858585;
+--vscode-editorActiveLineNumber-foreground: #c6c6c6;
+--vscode-editorLineNumber-activeForeground: #c6c6c6;
+--vscode-editorRuler-foreground: #5a5a5a;
+--vscode-editorCodeLens-foreground: #999999;
+--vscode-editorBracketMatch-background: rgba(0, 100, 0, 0.1);
+--vscode-editorBracketMatch-border: #888888;
+--vscode-editorOverviewRuler-border: rgba(127, 127, 127, 0.3);
+--vscode-editorGutter-background: #1e1e1e;
+--vscode-editorUnnecessaryCode-opacity: rgba(0, 0, 0, 0.67);
+--vscode-editorGhostText-foreground: rgba(255, 255, 255, 0.34);
+--vscode-editorOverviewRuler-rangeHighlightForeground: rgba(0, 122, 204, 0.6);
+--vscode-editorOverviewRuler-errorForeground: rgba(255, 18, 18, 0.7);
+--vscode-editorOverviewRuler-warningForeground: #cca700;
+--vscode-editorOverviewRuler-infoForeground: #3794ff;
+--vscode-editorBracketHighlight-foreground1: #ffd700;
+--vscode-editorBracketHighlight-foreground2: #da70d6;
+--vscode-editorBracketHighlight-foreground3: #179fff;
+--vscode-editorBracketHighlight-foreground4: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-foreground5: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-foreground6: rgba(0, 0, 0, 0);
+--vscode-editorBracketHighlight-unexpectedBracket-foreground: rgba(255, 18, 18, 0.8);
+--vscode-editorBracketPairGuide-background1: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background2: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background3: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background4: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background5: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-background6: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground1: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground2: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground3: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground4: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground5: rgba(0, 0, 0, 0);
+--vscode-editorBracketPairGuide-activeBackground6: rgba(0, 0, 0, 0);
+--vscode-editorUnicodeHighlight-border: #bd9b03;
+--vscode-editorUnicodeHighlight-background: rgba(189, 155, 3, 0.15);
+--vscode-editorOverviewRuler-bracketMatchForeground: #a0a0a0;
+--vscode-symbolIcon-arrayForeground: #cccccc;
+--vscode-symbolIcon-booleanForeground: #cccccc;
+--vscode-symbolIcon-classForeground: #ee9d28;
+--vscode-symbolIcon-colorForeground: #cccccc;
+--vscode-symbolIcon-constantForeground: #cccccc;
+--vscode-symbolIcon-constructorForeground: #b180d7;
+--vscode-symbolIcon-enumeratorForeground: #ee9d28;
+--vscode-symbolIcon-enumeratorMemberForeground: #75beff;
+--vscode-symbolIcon-eventForeground: #ee9d28;
+--vscode-symbolIcon-fieldForeground: #75beff;
+--vscode-symbolIcon-fileForeground: #cccccc;
+--vscode-symbolIcon-folderForeground: #cccccc;
+--vscode-symbolIcon-functionForeground: #b180d7;
+--vscode-symbolIcon-interfaceForeground: #75beff;
+--vscode-symbolIcon-keyForeground: #cccccc;
+--vscode-symbolIcon-keywordForeground: #cccccc;
+--vscode-symbolIcon-methodForeground: #b180d7;
+--vscode-symbolIcon-moduleForeground: #cccccc;
+--vscode-symbolIcon-namespaceForeground: #cccccc;
+--vscode-symbolIcon-nullForeground: #cccccc;
+--vscode-symbolIcon-numberForeground: #cccccc;
+--vscode-symbolIcon-objectForeground: #cccccc;
+--vscode-symbolIcon-operatorForeground: #cccccc;
+--vscode-symbolIcon-packageForeground: #cccccc;
+--vscode-symbolIcon-propertyForeground: #cccccc;
+--vscode-symbolIcon-referenceForeground: #cccccc;
+--vscode-symbolIcon-snippetForeground: #cccccc;
+--vscode-symbolIcon-stringForeground: #cccccc;
+--vscode-symbolIcon-structForeground: #cccccc;
+--vscode-symbolIcon-textForeground: #cccccc;
+--vscode-symbolIcon-typeParameterForeground: #cccccc;
+--vscode-symbolIcon-unitForeground: #cccccc;
+--vscode-symbolIcon-variableForeground: #75beff;
+--vscode-peekViewTitle-background: #252526;
+--vscode-peekViewTitleLabel-foreground: #ffffff;
+--vscode-peekViewTitleDescription-foreground: rgba(204, 204, 204, 0.7);
+--vscode-peekView-border: #3794ff;
+--vscode-peekViewResult-background: #252526;
+--vscode-peekViewResult-lineForeground: #bbbbbb;
+--vscode-peekViewResult-fileForeground: #ffffff;
+--vscode-peekViewResult-selectionBackground: rgba(51, 153, 255, 0.2);
+--vscode-peekViewResult-selectionForeground: #ffffff;
+--vscode-peekViewEditor-background: #001f33;
+--vscode-peekViewEditorGutter-background: #001f33;
+--vscode-peekViewEditorStickyScroll-background: #001f33;
+--vscode-peekViewResult-matchHighlightBackground: rgba(234, 92, 0, 0.3);
+--vscode-peekViewEditor-matchHighlightBackground: rgba(255, 143, 0, 0.6);
+--vscode-editorMarkerNavigationError-background: #f14c4c;
+--vscode-editorMarkerNavigationError-headerBackground: rgba(241, 76, 76, 0.1);
+--vscode-editorMarkerNavigationWarning-background: #cca700;
+--vscode-editorMarkerNavigationWarning-headerBackground: rgba(204, 167, 0, 0.1);
+--vscode-editorMarkerNavigationInfo-background: #3794ff;
+--vscode-editorMarkerNavigationInfo-headerBackground: rgba(55, 148, 255, 0.1);
+--vscode-editorMarkerNavigation-background: #1e1e1e;
+--vscode-editor-foldBackground: rgba(38, 79, 120, 0.3);
+--vscode-editorGutter-foldingControlForeground: #c5c5c5;
+--vscode-editorSuggestWidget-background: #252526;
+--vscode-editorSuggestWidget-border: #454545;
+--vscode-editorSuggestWidget-foreground: #d4d4d4;
+--vscode-editorSuggestWidget-selectedForeground: #ffffff;
+--vscode-editorSuggestWidget-selectedBackground: #04395e;
+--vscode-editorSuggestWidget-highlightForeground: #2aaaff;
+--vscode-editorSuggestWidget-focusHighlightForeground: #2aaaff;
+--vscode-editorSuggestWidgetStatus-foreground: rgba(212, 212, 212, 0.5);
+--vscode-editor-linkedEditingBackground: rgba(255, 0, 0, 0.3);
+--vscode-editor-wordHighlightBackground: rgba(87, 87, 87, 0.72);
+--vscode-editor-wordHighlightStrongBackground: rgba(0, 73, 114, 0.72);
+--vscode-editor-wordHighlightTextBackground: rgba(87, 87, 87, 0.72);
+--vscode-editorOverviewRuler-wordHighlightForeground: rgba(160, 160, 160, 0.8);
+--vscode-editorOverviewRuler-wordHighlightStrongForeground: rgba(192, 160, 192, 0.8);
+--vscode-editorOverviewRuler-wordHighlightTextForeground: rgba(160, 160, 160, 0.8);
+--vscode-editorHoverWidget-highlightForeground: #2aaaff; }
+
+.mtk1 { color: #d4d4d4; }
+.mtk2 { color: #161822; }
+.mtk3 { color: #cc6666; }
+.mtk4 { color: #9cdcfe; }
+.mtk5 { color: #ce9178; }
+.mtk6 { color: #b5cea8; }
+.mtk7 { color: #608b4e; }
+.mtk8 { color: #569cd6; }
+.mtk9 { color: #dcdcdc; }
+.mtk10 { color: #808080; }
+.mtk11 { color: #f44747; }
+.mtk12 { color: #c586c0; }
+.mtk13 { color: #a79873; }
+.mtk14 { color: #dd6a6f; }
+.mtk15 { color: #5bb498; }
+.mtk16 { color: #909090; }
+.mtk17 { color: #778899; }
+.mtk18 { color: #ff00ff; }
+.mtk19 { color: #b46695; }
+.mtk20 { color: #ff0000; }
+.mtk21 { color: #4f76ac; }
+.mtk22 { color: #3dc9b0; }
+.mtk23 { color: #74b0df; }
+.mtk24 { color: #4864aa; }
+.mtki { font-style: italic; }
+.mtkb { font-weight: bold; }
+.mtku { text-decoration: underline; text-underline-position: under; }
+.mtks { text-decoration: line-through; }
+.mtks.mtku { text-decoration: underline line-through; text-underline-position: under; }</style></head>
+<body class="" style="">
+    <noscript>
+        <strong>We're sorry but Kestra doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+
+    <div id="loader-wrapper" style="display: none;">
+        <div id="loader"></div>
+    </div>
+
+    <div id="app-container" style="display: block;">
+        <div id="app" data-v-app=""><div class="v-sidebar-menu vsm_expanded" id="side-menu" style="max-width: 268px;"><div class="logo"><a href="http://172.24.30.33:8080/ui/dashboard" class=""><span class="img"></span></a></div><!----><div class="vsm--scroll-wrapper"><div class="vsm--scroll-overflow"><div class="vsm--scroll"><ul class="vsm--menu" style="width: 268px;"><li class="vsm--item"><a class="vsm--link vsm--link_level-1" href="http://172.24.30.33:8080/ui/dashboard" target="_self"><!--v-if--><span class="vsm--icon menu-icon material-design-icon view-dashboard-variant-outline-icon vsm--icon menu-icon" aria-hidden="true" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M2 5V19H22V5H2M20 12H16V7H20V12M14 10H10V7H14V10M10 12H14V17H10V12M4 7H8V17H4V7M16 17V14H20V17H16Z"><!----></path></svg></span><div class="vsm--title"><span>Dashboard</span><!--v-if--><!--v-if--></div></a><!--v-if--></li><li class="vsm--item"><a class="vsm--link vsm--link_level-1" href="http://172.24.30.33:8080/ui/editor" target="_self"><!--v-if--><span class="vsm--icon menu-icon material-design-icon folder-edit-outline-icon vsm--icon menu-icon" aria-hidden="true" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 18H12.13L11 19.13V20H4C2.9 20 2 19.11 2 18V6C2 4.89 2.89 4 4 4H10L12 6H20C21.1 6 22 6.89 22 8V10.15C21.74 10.06 21.46 10 21.17 10C20.75 10 20.36 10.11 20 10.3V8H4V18M22.85 13.47L21.53 12.15C21.33 11.95 21 11.95 20.81 12.15L19.83 13.13L21.87 15.17L22.85 14.19C23.05 14 23.05 13.67 22.85 13.47M13 19.96V22H15.04L21.17 15.88L19.13 13.83L13 19.96Z"><!----></path></svg></span><div class="vsm--title"><span>Editor</span><!--v-if--><!--v-if--></div></a><!--v-if--></li><li class="vsm--item"><a class="vsm--link vsm--link_level-1" href="http://172.24.30.33:8080/ui/flows" target="_self"><!--v-if--><span class="vsm--icon menu-icon material-design-icon file-tree-outline-icon vsm--icon menu-icon" aria-hidden="true" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 13H7V18H12V20H5V10H7V11H12V13M8 4V6H4V4H8M10 2H2V8H10V2M20 11V13H16V11H20M22 9H14V15H22V9M20 18V20H16V18H20M22 16H14V22H22V16Z"><!----></path></svg></span><div class="vsm--title"><span>Flows</span><!--v-if--><!--v-if--></div></a><!--v-if--></li><!--v-if--><li class="vsm--item"><a class="vsm--link vsm--link_level-1 vsm--link_active" href="http://172.24.30.33:8080/ui/executions" target="_self"><!--v-if--><span class="vsm--icon menu-icon material-design-icon timeline-clock-outline-icon vsm--icon menu-icon" aria-hidden="true" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 2V8H2V2H4M2 22V16H4V22H2M5 12C5 13.11 4.11 14 3 14C1.9 14 1 13.11 1 12C1 10.9 1.9 10 3 10C4.11 10 5 10.9 5 12M16 4C20.42 4 24 7.58 24 12C24 16.42 20.42 20 16 20C12.4 20 9.36 17.62 8.35 14.35L6 12L8.35 9.65C9.36 6.38 12.4 4 16 4M16 6C12.69 6 10 8.69 10 12C10 15.31 12.69 18 16 18C19.31 18 22 15.31 22 12C22 8.69 19.31 6 16 6M15 13V8H16.5V12.2L19.5 14L18.68 15.26L15 13Z"><!----></path></svg></span><div class="vsm--title"><span>Executions</span><!--v-if--><!--v-if--></div></a><!--v-if--></li><!--v-if--><li class="vsm--item"><a class="vsm--link vsm--link_level-1" href="http://172.24.30.33:8080/ui/logs" target="_self"><!--v-if--><span class="vsm--icon menu-icon material-design-icon notebook-outline-icon vsm--icon menu-icon" aria-hidden="true" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17,4V10L15,8L13,10V4H9V20H19V4H17M3,7V5H5V4C5,2.89 5.9,2 7,2H19C20.05,2 21,2.95 21,4V20C21,21.05 20.05,22 19,22H7C5.95,22 5,21.05 5,20V19H3V17H5V13H3V11H5V7H3M5,5V7H7V5H5M5,19H7V17H5V19M5,13H7V11H5V13Z"><!----></path></svg></span><div class="vsm--title"><span>Logs</span><!--v-if--><!--v-if--></div></a><!--v-if--></li><li class="vsm--item"><a class="vsm--link vsm--link_level-1" href="http://172.24.30.33:8080/ui/blueprints" target="_self"><!--v-if--><span class="vsm--icon menu-icon material-design-icon ballot-icon vsm--icon menu-icon" aria-hidden="true" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13,9.5H18V7.5H13V9.5M13,16.5H18V14.5H13V16.5M19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21M6,11H11V6H6V11M7,7H10V10H7V7M6,18H11V13H6V18M7,14H10V17H7V14Z"><!----></path></svg></span><div class="vsm--title"><span>Blueprints</span><!--v-if--><!--v-if--></div></a><!--v-if--></li><li class="vsm--item"><a class="vsm--link vsm--link_level-1" href="http://172.24.30.33:8080/ui/executions/production/defaulters_report/3zZEPNwInmzfym7q8NicU2/logs#" target="_self" aria-haspopup="true" aria-expanded="false"><!--v-if--><span class="vsm--icon menu-icon material-design-icon account-supervisor-outline-icon vsm--icon menu-icon" aria-hidden="true" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.5 15.5C18.22 15.5 20.25 16.3 20.5 16.78V17.5H12.5V16.78C12.75 16.3 14.78 15.5 16.5 15.5M16.5 14C14.67 14 11 14.92 11 16.75V19H22V16.75C22 14.92 18.33 14 16.5 14M9 13C6.67 13 2 14.17 2 16.5V19H9V17.5H3.5V16.5C3.5 15.87 6.29 14.34 9.82 14.5A5.12 5.12 0 0 1 11.37 13.25A12.28 12.28 0 0 0 9 13M9 6.5A1.5 1.5 0 1 1 7.5 8A1.5 1.5 0 0 1 9 6.5M9 5A3 3 0 1 0 12 8A3 3 0 0 0 9 5M16.5 8.5A1 1 0 1 1 15.5 9.5A1 1 0 0 1 16.5 8.5M16.5 7A2.5 2.5 0 1 0 19 9.5A2.5 2.5 0 0 0 16.5 7Z"><!----></path></svg></span><div class="vsm--title"><span>Administration</span><!--v-if--><div class="vsm--arrow"><span class="vsm--arrow_default"></span></div></div></a><!--v-if--></li><li class="vsm--item"><a class="vsm--link vsm--link_level-1" href="http://172.24.30.33:8080/ui/settings" target="_self"><!--v-if--><span class="vsm--icon menu-icon material-design-icon cog-outline-icon vsm--icon menu-icon" aria-hidden="true" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10M10,22C9.75,22 9.54,21.82 9.5,21.58L9.13,18.93C8.5,18.68 7.96,18.34 7.44,17.94L4.95,18.95C4.73,19.03 4.46,18.95 4.34,18.73L2.34,15.27C2.21,15.05 2.27,14.78 2.46,14.63L4.57,12.97L4.5,12L4.57,11L2.46,9.37C2.27,9.22 2.21,8.95 2.34,8.73L4.34,5.27C4.46,5.05 4.73,4.96 4.95,5.05L7.44,6.05C7.96,5.66 8.5,5.32 9.13,5.07L9.5,2.42C9.54,2.18 9.75,2 10,2H14C14.25,2 14.46,2.18 14.5,2.42L14.87,5.07C15.5,5.32 16.04,5.66 16.56,6.05L19.05,5.05C19.27,4.96 19.54,5.05 19.66,5.27L21.66,8.73C21.79,8.95 21.73,9.22 21.54,9.37L19.43,11L19.5,12L19.43,13L21.54,14.63C21.73,14.78 21.79,15.05 21.66,15.27L19.66,18.73C19.54,18.95 19.27,19.04 19.05,18.95L16.56,17.95C16.04,18.34 15.5,18.68 14.87,18.93L14.5,21.58C14.46,21.82 14.25,22 14,22H10M11.25,4L10.88,6.61C9.68,6.86 8.62,7.5 7.85,8.39L5.44,7.35L4.69,8.65L6.8,10.2C6.4,11.37 6.4,12.64 6.8,13.8L4.68,15.36L5.43,16.66L7.86,15.62C8.63,16.5 9.68,17.14 10.87,17.38L11.24,20H12.76L13.13,17.39C14.32,17.14 15.37,16.5 16.14,15.62L18.57,16.66L19.32,15.36L17.2,13.81C17.6,12.64 17.6,11.37 17.2,10.2L19.31,8.65L18.56,7.35L16.15,8.39C15.38,7.5 14.32,6.86 13.12,6.62L12.75,4H11.25Z"><!----></path></svg></span><div class="vsm--title"><span>Settings</span><!--v-if--><!--v-if--></div></a><!--v-if--></li></ul></div><div class="vsm--scroll-bar"><div class="vsm--scroll-thumb" style="height: 0%; transform: translateY(0%);"></div></div></div></div><span class="version">0.13.4</span><button class="vsm--toggle-btn" aria-label="Collapse sidebar"><span aria-hidden="true" class="material-design-icon chevron-left-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"><!----></path></svg></span></button></div><!----><main class="menu-not-collapsed"><nav data-v-d6204049="" class="d-flex w-100 gap-3 top-bar"><div data-v-d6204049="" class="d-flex flex-column flex-grow-1 flex-shrink-1 overflow-hidden top-title"><div data-v-d6204049="" class="el-breadcrumb" aria-label="Breadcrumb" role="navigation"><span data-v-d6204049="" class="el-breadcrumb__item"><span class="el-breadcrumb__inner" role="link"><a data-v-d6204049="" href="http://172.24.30.33:8080/ui/flows?namespace=production" class="">Flows</a></span><span class="el-breadcrumb__separator" role="presentation">/</span></span><span data-v-d6204049="" class="el-breadcrumb__item"><span class="el-breadcrumb__inner" role="link"><a data-v-d6204049="" href="http://172.24.30.33:8080/ui/flows/edit/production/defaulters_report" class="">production.defaulters_report</a></span><span class="el-breadcrumb__separator" role="presentation">/</span></span><span data-v-d6204049="" class="el-breadcrumb__item" aria-current="page"><span class="el-breadcrumb__inner" role="link"><a data-v-d6204049="" href="http://172.24.30.33:8080/ui/flows/edit/production/defaulters_report/executions" class="">Executions</a></span><span class="el-breadcrumb__separator" role="presentation">/</span></span></div><h1 data-v-d6204049="" class="h5 fw-semibold m-0 d-inline-fle">3zZEPNwInmzfym7q8NicU2</h1></div><div data-v-d6204049="" class="d-flex side gap-2 flex-shrink-0"><div data-v-d6204049="" class="d-none d-lg-flex align-items-center"><div data-v-78f25864="" data-v-d6204049="" class="trigger-flow-guided-step"><div class="el-autocomplete flex-shrink-0 el-tooltip__trigger el-tooltip__trigger" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-owns="el-autocomplete-9724" aria-controls="el-id-4890-148"><div class="el-input el-input--prefix el-input--suffix"><!-- input --><!-- prepend slot --><!--v-if--><div class="el-input__wrapper" tabindex="-1"><!-- prefix slot --><span class="el-input__prefix"><span class="el-input__prefix-inner"><span data-v-78f25864="" aria-hidden="true" class="material-design-icon magnify-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"><!----></path></svg></span><!--v-if--></span></span><input class="el-input__inner" type="text" autocomplete="off" tabindex="0" placeholder="Jump to..." role="textbox" aria-autocomplete="list" aria-controls="id" aria-activedescendant="el-autocomplete-9724-item--1" id="el-id-4890-152"><!-- suffix slot --><span class="el-input__suffix"><span class="el-input__suffix-inner"><span data-v-78f25864="" aria-hidden="false" aria-label="Ctrl/Cmd + K" class="material-design-icon keyboard-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19,10H17V8H19M19,13H17V11H19M16,10H14V8H16M16,13H14V11H16M16,17H8V15H16M7,10H5V8H7M7,13H5V11H7M8,11H10V13H8M8,8H10V10H8M11,11H13V13H11M11,8H13V10H11M20,5H4C2.89,5 2,5.89 2,7V17A2,2 0 0,0 4,19H20A2,2 0 0,0 22,17V7C22,5.89 21.1,5 20,5Z"><title>Ctrl/Cmd + K</title></path></svg></span><span data-v-78f25864="" class="d-none d-xl-block">Ctrl/Cmd + K</span><!--v-if--><!--v-if--><!--v-if--><!--v-if--><!--v-if--></span></span></div><!-- append slot --><!--v-if--></div></div></div></div><ul data-v-d6204049-s=""><li data-v-d6204049-s=""><a data-v-d6204049-s="" href="http://172.24.30.33:8080/api/v1/executions/3zZEPNwInmzfym7q8NicU2" target="_blank"><button data-v-d6204049-s="" aria-disabled="false" type="button" class="el-button"><i class="el-icon"><span aria-hidden="true" class="material-design-icon api-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 7H5A2 2 0 0 0 3 9V17H5V13H7V17H9V9A2 2 0 0 0 7 7M7 11H5V9H7M14 7H10V17H12V13H14A2 2 0 0 0 16 11V9A2 2 0 0 0 14 7M14 11H12V9H14M20 9V15H21V17H17V15H18V9H17V7H21V9Z"><!----></path></svg></span></i><span class="">API</span></button></a></li><li data-v-d6204049-s=""><button data-v-d6204049-s="" aria-disabled="false" type="button" class="el-button"><i class="el-icon"><span aria-hidden="true" class="material-design-icon delete-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19,4H15.5L14.5,3H9.5L8.5,4H5V6H19M6,19A2,2 0 0,0 8,21H16A2,2 0 0,0 18,19V7H6V19Z"><!----></path></svg></span></i><span class="">Delete</span></button></li><li data-v-d6204049-s=""><button data-v-d6204049-s="" aria-disabled="false" type="button" class="el-button"><i class="el-icon"><span aria-hidden="true" class="material-design-icon pencil-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z"><!----></path></svg></span></i><span class="">Edit flow</span></button></li><li data-v-d6204049-s=""><div data-v-bc33412d="" data-v-d6204049-s="" class="trigger-flow-wrapper"><button data-v-bc33412d="" aria-disabled="false" type="button" class="el-button el-button--primary"><i class="el-icon"><span aria-hidden="true" class="material-design-icon flash-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7,2V13H10V22L17,10H13L17,2H7Z"><!----></path></svg></span></i><span class="">Execute</span></button><!----></div></li></ul><div data-v-d6204049="" class="d-flex fixed-buttons"><div data-v-d6204049="" class="el-dropdown"><button data-v-d6204049="" aria-disabled="false" type="button" class="el-button no-focus dropdown-button el-tooltip__trigger el-tooltip__trigger" id="el-id-4890-149" role="button" tabindex="0" aria-controls="el-id-4890-150" aria-expanded="false" aria-haspopup="menu"><!--v-if--><span class=""><span data-v-d6204049="" aria-hidden="true" class="material-design-icon help-box-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11,18H13V16H11V18M12,6A4,4 0 0,0 8,10H10A2,2 0 0,1 12,8A2,2 0 0,1 14,10C14,12 11,11.75 11,15H13C13,12.75 16,12.5 16,10A4,4 0 0,0 12,6M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3Z"><!----></path></svg></span></span></button><!--v-if--></div><button data-v-3f1d3086="" aria-disabled="false" type="button" class="el-button news-link"><!--v-if--><span class=""><span data-v-3f1d3086="" aria-hidden="true" aria-label="" class="material-design-icon bell-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21"><!----></path></svg></span><!----></span></button><!----><div data-v-d6204049=""></div></div></div></nav><div class="mt-3"><div><div data-v-e7bab24d="" class="tabs-nav"><div data-v-e7bab24d="" class="el-tabs el-tabs--top nav-tabs-flow-root router-link"><div class="el-tabs__header is-top"><!----><div class="el-tabs__nav-wrap is-top"><!----><div class="el-tabs__nav-scroll"><div class="el-tabs__nav is-top" role="tablist" style="transform: translateX(0px);"><div class="el-tabs__active-bar is-top" style="width: 85px; transform: translateX(206px);"></div><div class="el-tabs__item is-top" id="tab-default" aria-controls="pane-default" role="tab" aria-selected="false" tabindex="-1"><a data-v-e7bab24d="" href="http://172.24.30.33:8080/ui/executions/production/defaulters_report/3zZEPNwInmzfym7q8NicU2" class="router-link-active">Overview <!----></a><!----></div><div class="el-tabs__item is-top" id="tab-gantt" aria-controls="pane-gantt" role="tab" aria-selected="false" tabindex="-1"><a data-v-e7bab24d="" href="http://172.24.30.33:8080/ui/executions/production/defaulters_report/3zZEPNwInmzfym7q8NicU2/gantt" class="">Gantt <!----></a><!----></div><div class="el-tabs__item is-top is-active" id="tab-logs" aria-controls="pane-logs" role="tab" aria-selected="true" tabindex="0"><a data-v-e7bab24d="" href="http://172.24.30.33:8080/ui/executions/production/defaulters_report/3zZEPNwInmzfym7q8NicU2/logs" class="router-link-active router-link-exact-active" aria-current="page">Logs <!----></a><!----></div><div class="el-tabs__item is-top" id="tab-topology" aria-controls="pane-topology" role="tab" aria-selected="false" tabindex="-1"><a data-v-e7bab24d="" href="http://172.24.30.33:8080/ui/executions/production/defaulters_report/3zZEPNwInmzfym7q8NicU2/topology" class="">Topology <!----></a><!----></div><div class="el-tabs__item is-top" id="tab-outputs" aria-controls="pane-outputs" role="tab" aria-selected="false" tabindex="-1"><a data-v-e7bab24d="" href="http://172.24.30.33:8080/ui/executions/production/defaulters_report/3zZEPNwInmzfym7q8NicU2/outputs" class="">Outputs <!----></a><!----></div><div class="el-tabs__item is-top" id="tab-metrics" aria-controls="pane-metrics" role="tab" aria-selected="false" tabindex="-1"><a data-v-e7bab24d="" href="http://172.24.30.33:8080/ui/executions/production/defaulters_report/3zZEPNwInmzfym7q8NicU2/metrics" class="">Metrics <!----></a><!----></div></div></div></div></div><div class="el-tabs__content"><div data-v-e7bab24d="" id="pane-default" class="el-tab-pane" role="tabpanel" aria-hidden="true" aria-labelledby="tab-default" style="display: none;"></div><div data-v-e7bab24d="" id="pane-gantt" class="el-tab-pane" role="tabpanel" aria-hidden="true" aria-labelledby="tab-gantt" style="display: none;"></div><div data-v-e7bab24d="" id="pane-logs" class="el-tab-pane" role="tabpanel" aria-hidden="false" aria-labelledby="tab-logs" style=""></div><div data-v-e7bab24d="" id="pane-topology" class="el-tab-pane" role="tabpanel" aria-hidden="true" aria-labelledby="tab-topology" style="display: none;"></div><div data-v-e7bab24d="" id="pane-outputs" class="el-tab-pane" role="tabpanel" aria-hidden="true" aria-labelledby="tab-outputs" style="display: none;"></div><div data-v-e7bab24d="" id="pane-metrics" class="el-tab-pane" role="tabpanel" aria-hidden="true" aria-labelledby="tab-metrics" style="display: none;"></div></div></div><div data-v-e7bab24d="" embed=""><div data-v-59180991="" class="collapse mb-sm-4 mb-md-0"><div data-v-59180991="" class="button mb-2"><button data-v-59180991="" aria-disabled="false" type="button" class="el-button"><!--v-if--><span class=""><span data-v-59180991="" aria-hidden="true" class="material-design-icon menu-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"><!----></path></svg></span></span></button></div><form data-v-59180991="" class="el-form el-form--default el-form--label-right el-form--inline"><div class="el-form-item asterisk-left"><!--v-if--><div class="el-form-item__content"><div class="el-input el-input--suffix"><!-- input --><!-- prepend slot --><!--v-if--><div class="el-input__wrapper" tabindex="-1"><!-- prefix slot --><!--v-if--><input class="el-input__inner" type="text" autocomplete="off" tabindex="0" placeholder="Search" id="el-id-4890-285"><!-- suffix slot --><span class="el-input__suffix"><span class="el-input__suffix-inner"><span aria-hidden="true" class="material-design-icon magnify-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"><!----></path></svg></span><!--v-if--><!--v-if--><!--v-if--><!--v-if--><!--v-if--></span></span></div><!-- append slot --><!--v-if--></div></div></div><div class="el-form-item asterisk-left"><!--v-if--><div class="el-form-item__content"><div class="el-select"><div class="select-trigger el-tooltip__trigger el-tooltip__trigger"><!--v-if--><!-- fix: https://github.com/element-plus/element-plus/issues/11415 --><!--v-if--><div class="el-input el-input--suffix"><!-- input --><!-- prepend slot --><!--v-if--><div class="el-input__wrapper" tabindex="-1"><!-- prefix slot --><!--v-if--><input class="el-input__inner" type="text" readonly="" autocomplete="off" tabindex="0" placeholder="Revisions" id="el-id-4890-286"><!-- suffix slot --><span class="el-input__suffix"><span class="el-input__suffix-inner"><i class="el-icon el-select__caret el-select__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path fill="currentColor" d="M831.872 340.864 512 652.672 192.128 340.864a30.592 30.592 0 0 0-42.752 0 29.12 29.12 0 0 0 0 41.6L489.664 714.24a32 32 0 0 0 44.672 0l340.288-331.712a29.12 29.12 0 0 0 0-41.728 30.592 30.592 0 0 0-42.752 0z"></path></svg></i><!--v-if--><!--v-if--><!--v-if--><!--v-if--><!--v-if--><!--v-if--></span></span></div><!-- append slot --><!--v-if--></div></div></div></div></div><div class="el-form-item asterisk-left"><!--v-if--><div class="el-form-item__content"><button aria-disabled="false" type="button" class="el-button"><!--v-if--><span class="">Collapse all</span></button></div></div><div class="el-form-item asterisk-left"><!--v-if--><div class="el-form-item__content"><div class="el-button-group"><button aria-disabled="false" type="button" class="el-button"><!--v-if--><span class=""><span data-v-63fa5a9d="" class="kicon"><span class="el-tooltip__trigger material-design-icon download-icon el-tooltip__trigger" aria-hidden="true" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z"><!----></path></svg></span></span></span></button></div></div></div></form></div><div data-v-32263c76="" class="log-wrapper"><div data-v-32263c76=""><div data-v-32263c76="" class="el-card is-always-shadow attempt-wrapper"><!--v-if--><div class="el-card__body" style=""><div data-v-d57864b0="" data-v-32263c76="" class="attempt-header"><div data-v-d57864b0="" class="task-icon d-none d-md-inline-block me-1"><div data-v-2ae3a015="" data-v-d57864b0="" class="flowable wrapper" only-icon=""><span><div data-v-2ae3a015="" class="icon" style="background-image: url(&quot;data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iI0NBQzVEQSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwIDRMMTIgNkgyMEMyMC41MzA0IDYgMjEuMDM5MSA2LjIxMDcxIDIxLjQxNDIgNi41ODU3OUMyMS43ODkzIDYuOTYwODYgMjIgNy40Njk1NyAyMiA4VjExLjVDMjEuMjMgMTEuMTggMjAuMzkgMTEgMTkuNSAxMUMxNy43NzYxIDExIDE2LjEyMjggMTEuNjg0OCAxNC45MDM4IDEyLjkwMzhDMTMuNjg0OCAxNC4xMjI4IDEzIDE1Ljc3NjEgMTMgMTcuNUMxMyAxOC4zOSAxMy4xOCAxOS4yMyAxMy41IDIwSDRDMi44OSAyMCAyIDE5LjEgMiAxOFY2QzIgNC44OSAyLjg5IDQgNCA0SDEwWk0xOSAxMlYxMy41QzIwLjA2MDkgMTMuNSAyMS4wNzgzIDEzLjkyMTQgMjEuODI4NCAxNC42NzE2QzIyLjU3ODYgMTUuNDIxNyAyMyAxNi40MzkxIDIzIDE3LjVDMjMgMTguMzIgMjIuNzUgMTkuMDggMjIuMzMgMTkuNzFMMjEuMjQgMTguNjJDMjEuNDEgMTguMjggMjEuNSAxNy45IDIxLjUgMTcuNUMyMS41IDE2LjgzNyAyMS4yMzY2IDE2LjIwMTEgMjAuNzY3OCAxNS43MzIyQzIwLjI5ODkgMTUuMjYzNCAxOS42NjMgMTUgMTkgMTVWMTYuNUwxNi43NSAxNC4yNUwxOSAxMlpNMTkgMjNWMjEuNUMxNy45MzkxIDIxLjUgMTYuOTIxNyAyMS4wNzg2IDE2LjE3MTYgMjAuMzI4NEMxNS40MjE0IDE5LjU3ODMgMTUgMTguNTYwOSAxNSAxNy41QzE1IDE2LjY4IDE1LjI1IDE1LjkyIDE1LjY3IDE1LjI5TDE2Ljc2IDE2LjM4QzE2LjU5IDE2LjcyIDE2LjUgMTcuMSAxNi41IDE3LjVDMTYuNSAxOC4xNjMgMTYuNzYzNCAxOC43OTg5IDE3LjIzMjIgMTkuMjY3OEMxNy43MDExIDE5LjczNjYgMTguMzM3IDIwIDE5IDIwVjE4LjVMMjEuMjUgMjAuNzVMMTkgMjNaIiBmaWxsPSIjQ0FDNURBIi8+Cjwvc3ZnPgo=&quot;);"></div></span><span class="d-none">io.kestra.core.tasks.flows.WorkingDirectory</span></div></div><div data-v-d57864b0="" class="task-id flex-grow-1" id="attempt-0-2JorUR2WJz7leC8JutxOVO"><span data-v-d57864b0="" class="el-tooltip__trigger"><span data-v-d57864b0="" class="me-1 fw-bold">defaulters_report</span><!----></span></div><div data-v-d57864b0="" class="task-duration d-none d-md-inline-block"><small data-v-d57864b0="" class="me-1"><span data-v-d57864b0=""><span class="el-tooltip__trigger">20.07s</span></span></small></div><div data-v-d57864b0="" class="task-status"><button data-v-e4cf0860="" data-v-d57864b0="" aria-disabled="false" type="button" class="el-button el-button--small status status-red"><i class="el-icon"><span aria-hidden="true" class="material-design-icon close-circle-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z"><!----></path></svg></span></i><span class="">Failed</span></button></div><div data-v-d57864b0="" class="el-select el-select--disabled d-none d-md-inline-block"><div class="select-trigger el-tooltip__trigger el-tooltip__trigger"><!--v-if--><!-- fix: https://github.com/element-plus/element-plus/issues/11415 --><!--v-if--><div class="el-input is-disabled el-input--suffix"><!-- input --><!-- prepend slot --><!--v-if--><div class="el-input__wrapper" tabindex="-1"><!-- prefix slot --><!--v-if--><input class="el-input__inner" type="text" disabled="" readonly="" autocomplete="off" tabindex="0" placeholder="Select" id="el-id-4890-287"><!-- suffix slot --><span class="el-input__suffix"><span class="el-input__suffix-inner"><i class="el-icon el-select__caret el-select__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path fill="currentColor" d="M831.872 340.864 512 652.672 192.128 340.864a30.592 30.592 0 0 0-42.752 0 29.12 29.12 0 0 0 0 41.6L489.664 714.24a32 32 0 0 0 44.672 0l340.288-331.712a29.12 29.12 0 0 0 0-41.728 30.592 30.592 0 0 0-42.752 0z"></path></svg></i><!--v-if--><!--v-if--><!--v-if--><!--v-if--><!--v-if--><!--v-if--></span></span></div><!-- append slot --><!--v-if--></div></div></div><div data-v-d57864b0="" class="el-dropdown"><button data-v-d57864b0="" aria-disabled="false" type="button" class="el-button el-button--default more-dropdown-button el-tooltip__trigger el-tooltip__trigger" id="el-id-4890-243" role="button" tabindex="0" aria-controls="el-id-4890-244" aria-expanded="false" aria-haspopup="menu"><!--v-if--><span class=""><span data-v-d57864b0="" aria-hidden="true" aria-label="" class="material-design-icon dots-horizontal-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16,12A2,2 0 0,1 18,10A2,2 0 0,1 20,12A2,2 0 0,1 18,14A2,2 0 0,1 16,12M10,12A2,2 0 0,1 12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12M4,12A2,2 0 0,1 6,10A2,2 0 0,1 8,12A2,2 0 0,1 6,14A2,2 0 0,1 4,12Z"><!----></path></svg></span></span></button><!--v-if--></div><!----></div><!----><!----></div></div></div><div data-v-32263c76=""><div data-v-32263c76="" class="el-card is-always-shadow attempt-wrapper"><!--v-if--><div class="el-card__body" style=""><div data-v-d57864b0="" data-v-32263c76="" class="attempt-header"><div data-v-d57864b0="" class="task-icon d-none d-md-inline-block me-1"><div data-v-2ae3a015="" data-v-d57864b0="" class="wrapper" only-icon=""><span><div data-v-2ae3a015="" class="icon" style="background-image: url(&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI5NyIgaGVpZ2h0PSI5NyI+CiAgPHBhdGggZmlsbD0iI0YwNTEzMyIgZD0iTTkyLjcxIDQ0LjQwOCA1Mi41OTEgNC4yOTFjLTIuMzEtMi4zMTEtNi4wNTctMi4zMTEtOC4zNjkgMGwtOC4zMyA4LjMzMkw0Ni40NTkgMjMuMTljMi40NTYtLjgzIDUuMjcyLS4yNzMgNy4yMjkgMS42ODUgMS45NjkgMS45NyAyLjUyMSA0LjgxIDEuNjcgNy4yNzVsMTAuMTg2IDEwLjE4NWMyLjQ2NS0uODUgNS4zMDctLjMgNy4yNzUgMS42NzEgMi43NSAyLjc1IDIuNzUgNy4yMDYgMCA5Ljk1OC0yLjc1MiAyLjc1MS03LjIwOCAyLjc1MS05Ljk2MSAwLTIuMDY4LTIuMDctMi41OC01LjExLTEuNTMxLTcuNjU4bC05LjUtOS40OTl2MjQuOTk3Yy42Ny4zMzIgMS4zMDMuNzc0IDEuODYxIDEuMzMyIDIuNzUgMi43NSAyLjc1IDcuMjA2IDAgOS45NTktMi43NSAyLjc0OS03LjIwOSAyLjc0OS05Ljk1NyAwLTIuNzUtMi43NTQtMi43NS03LjIxIDAtOS45NTkuNjgtLjY3OSAxLjQ2Ny0xLjE5MyAyLjMwNy0xLjUzN3YtMjUuMjNjLS44NC0uMzQ0LTEuNjI1LS44NTMtMi4zMDctMS41MzctMi4wODMtMi4wODItMi41ODQtNS4xNC0xLjUxNi03LjY5OEwzMS43OTggMTYuNzE1IDQuMjg4IDQ0LjIyMmMtMi4zMTEgMi4zMTMtMi4zMTEgNi4wNiAwIDguMzcxbDQwLjEyMSA0MC4xMThjMi4zMSAyLjMxMSA2LjA1NiAyLjMxMSA4LjM2OSAwTDkyLjcxIDUyLjc3OWMyLjMxMS0yLjMxMSAyLjMxMS02LjA2IDAtOC4zNzF6Ii8+Cjwvc3ZnPgo=&quot;);"></div></span><span class="d-none">io.kestra.plugin.git.Clone</span></div></div><div data-v-d57864b0="" class="task-id flex-grow-1" id="attempt-0-7Jrurb2ncPwis5miorgot0"><span data-v-d57864b0="" class="el-tooltip__trigger"><span data-v-d57864b0="" class="me-1 fw-bold">cloneRepository</span><!----></span></div><div data-v-d57864b0="" class="task-duration d-none d-md-inline-block"><small data-v-d57864b0="" class="me-1"><span data-v-d57864b0=""><span class="el-tooltip__trigger">0.19s</span></span></small></div><div data-v-d57864b0="" class="task-status"><button data-v-e4cf0860="" data-v-d57864b0="" aria-disabled="false" type="button" class="el-button el-button--small status status-green"><i class="el-icon"><span aria-hidden="true" class="material-design-icon check-circle-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12S6.5 22 12 22 22 17.5 22 12 17.5 2 12 2M10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z"><!----></path></svg></span></i><span class="">Success</span></button></div><div data-v-d57864b0="" class="el-select el-select--disabled d-none d-md-inline-block"><div class="select-trigger el-tooltip__trigger el-tooltip__trigger"><!--v-if--><!-- fix: https://github.com/element-plus/element-plus/issues/11415 --><!--v-if--><div class="el-input is-disabled el-input--suffix"><!-- input --><!-- prepend slot --><!--v-if--><div class="el-input__wrapper" tabindex="-1"><!-- prefix slot --><!--v-if--><input class="el-input__inner" type="text" disabled="" readonly="" autocomplete="off" tabindex="0" placeholder="Select" id="el-id-4890-288"><!-- suffix slot --><span class="el-input__suffix"><span class="el-input__suffix-inner"><i class="el-icon el-select__caret el-select__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path fill="currentColor" d="M831.872 340.864 512 652.672 192.128 340.864a30.592 30.592 0 0 0-42.752 0 29.12 29.12 0 0 0 0 41.6L489.664 714.24a32 32 0 0 0 44.672 0l340.288-331.712a29.12 29.12 0 0 0 0-41.728 30.592 30.592 0 0 0-42.752 0z"></path></svg></i><!--v-if--><!--v-if--><!--v-if--><!--v-if--><!--v-if--><!--v-if--></span></span></div><!-- append slot --><!--v-if--></div></div></div><div data-v-d57864b0="" class="el-dropdown"><button data-v-d57864b0="" aria-disabled="false" type="button" class="el-button el-button--default more-dropdown-button el-tooltip__trigger el-tooltip__trigger" id="el-id-4890-255" role="button" tabindex="0" aria-controls="el-id-4890-256" aria-expanded="false" aria-haspopup="menu"><!--v-if--><span class=""><span data-v-d57864b0="" aria-hidden="true" aria-label="" class="material-design-icon dots-horizontal-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16,12A2,2 0 0,1 18,10A2,2 0 0,1 20,12A2,2 0 0,1 18,14A2,2 0 0,1 16,12M10,12A2,2 0 0,1 12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12M4,12A2,2 0 0,1 6,10A2,2 0 0,1 8,12A2,2 0 0,1 6,14A2,2 0 0,1 4,12Z"><!----></path></svg></span></span></button><!--v-if--></div><button data-v-d57864b0="" aria-disabled="false" type="button" class="el-button el-button--default is-text border-0 expand-collapse"><!--v-if--><span class=""><span data-v-d57864b0="" aria-hidden="true" class="material-design-icon chevron-up-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z"><!----></path></svg></span></span></button></div><!----><div data-v-32263c76="" class="vue-recycle-scroller ready direction-vertical log-lines"><div class="vue-recycle-scroller__slot"></div><div class="vue-recycle-scroller__item-wrapper" style="min-height: 36px;"><div class="vue-recycle-scroller__item-view" style="transform: translateY(0px) translateX(0px);"><div data-v-32263c76="" data-index="0"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:36.010</span></div><span data-v-6f75b6ee="" class="message">Start cloning from 'https://github.com/sperezg6/reporte_deudores'</span></div></div><!----></div></div></div><div class="vue-recycle-scroller__slot"></div><div data-v-b329ee4c="" class="resize-observer" tabindex="-1"><object aria-hidden="true" tabindex="-1" type="text/html" data="./3zZEPNwInmzfym7q8NicU2 _ Kestra_files/saved_resource.html"></object></div></div></div></div></div><div data-v-32263c76=""><div data-v-32263c76="" class="el-card is-always-shadow attempt-wrapper"><!--v-if--><div class="el-card__body" style=""><div data-v-d57864b0="" data-v-32263c76="" class="attempt-header"><div data-v-d57864b0="" class="task-icon d-none d-md-inline-block me-1"><div data-v-2ae3a015="" data-v-d57864b0="" class="wrapper" only-icon=""><span><div data-v-2ae3a015="" class="icon" style="background-image: url(&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgODUgODUiIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjx1c2UgeGxpbms6aHJlZj0iI0MiIHg9IjIuNSIgeT0iMi41Ii8+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJBIiB4MT0iNTIlIiB5MT0iMCUiIHgyPSI0OCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMzg3ZWI4Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMzY2OTk0Ii8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9IkIiIHgxPSI1MCUiIHkxPSIwJSIgeDI9IjUwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmUwNTIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmMzMzEiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48c3ltYm9sIGlkPSJDIiBvdmVyZmxvdz0idmlzaWJsZSI+PGcgc3Ryb2tlPSJub25lIj48cGF0aCBkPSJNMzkuNzEyIDBDMTkuNDAzIDAgMjAuNjcxIDguODUzIDIwLjY3MSA4Ljg1M2wuMDIzIDkuMTcyaDE5LjM4MXYyLjc1NEgxMi45OTZTMCAxOS4yOTggMCAzOS44OTZzMTEuMzQzIDE5Ljg2OSAxMS4zNDMgMTkuODY5aDYuNzd2LTkuNTU5cy0uMzY1LTExLjQwMiAxMS4xNjItMTEuNDAyaDE5LjIyMnMxMC43OTkuMTc1IDEwLjc5OS0xMC40OTJWMTAuNjc0UzYwLjkzNiAwIDM5LjcxMiAwek0yOS4wMjUgNi4xNjhjLjkyNS0uMDAxIDEuODEyLjM2OCAyLjQ2NiAxLjAyNmEzLjUxIDMuNTEgMCAwIDEgMCA0Ljk1OGMtLjY1NC42NTctMS41NDEgMS4wMjYtMi40NjYgMS4wMjZzLTEuODEyLS4zNjgtMi40NjYtMS4wMjZhMy41MSAzLjUxIDAgMCAxIDAtNC45NThjLjY1NC0uNjU3IDEuNTQxLTEuMDI2IDIuNDY2LTEuMDI2eiIgZmlsbD0idXJsKCNBKSIvPjxwYXRoIGQ9Ik00MC4yODkgODBjMjAuMzA5IDAgMTkuMDQxLTguODUzIDE5LjA0MS04Ljg1M2wtLjAyMy05LjE3MkgzOS45MjZ2LTIuNzU0aDI3LjA3OFM4MCA2MC43MDMgODAgNDAuMTA0IDY4LjY1NyAyMC4yMzUgNjguNjU3IDIwLjIzNWgtNi43N3Y5LjU1OXMuMzY1IDExLjQwMi0xMS4xNjIgMTEuNDAySDMxLjUwNHMtMTAuOC0uMTc1LTEwLjggMTAuNDkydjE3LjYzOFMxOS4wNjUgODAgNDAuMjg5IDgwem0xMC42ODYtNi4xNjhjLS45MjUuMDAxLTEuODEyLS4zNjgtMi40NjYtMS4wMjZhMy41MSAzLjUxIDAgMCAxIDAtNC45NThjLjY1NC0uNjU3IDEuNTQxLTEuMDI2IDIuNDY2LTEuMDI2czEuODEyLjM2OCAyLjQ2NiAxLjAyNmEzLjUxIDMuNTEgMCAwIDEgMCA0Ljk1OGMtLjY1NC42NTctMS41NDEgMS4wMjYtMi40NjYgMS4wMjZ6IiBmaWxsPSJ1cmwoI0IpIi8+PC9nPjwvc3ltYm9sPjwvc3ZnPgo=&quot;);"></div></span><span class="d-none">io.kestra.plugin.scripts.python.Commands</span></div></div><div data-v-d57864b0="" class="task-id flex-grow-1" id="attempt-0-3YHReIofqxInifgJH5SQIe"><span data-v-d57864b0="" class="el-tooltip__trigger"><span data-v-d57864b0="" class="me-1 fw-bold">python</span><!----></span></div><div data-v-d57864b0="" class="task-duration d-none d-md-inline-block"><small data-v-d57864b0="" class="me-1"><span data-v-d57864b0=""><span class="el-tooltip__trigger">19.76s</span></span></small></div><div data-v-d57864b0="" class="task-status"><button data-v-e4cf0860="" data-v-d57864b0="" aria-disabled="false" type="button" class="el-button el-button--small status status-red"><i class="el-icon"><span aria-hidden="true" class="material-design-icon close-circle-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z"><!----></path></svg></span></i><span class="">Failed</span></button></div><div data-v-d57864b0="" class="el-select el-select--disabled d-none d-md-inline-block"><div class="select-trigger el-tooltip__trigger el-tooltip__trigger"><!--v-if--><!-- fix: https://github.com/element-plus/element-plus/issues/11415 --><!--v-if--><div class="el-input is-disabled el-input--suffix"><!-- input --><!-- prepend slot --><!--v-if--><div class="el-input__wrapper" tabindex="-1"><!-- prefix slot --><!--v-if--><input class="el-input__inner" type="text" disabled="" readonly="" autocomplete="off" tabindex="0" placeholder="Select" id="el-id-4890-289"><!-- suffix slot --><span class="el-input__suffix"><span class="el-input__suffix-inner"><i class="el-icon el-select__caret el-select__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><path fill="currentColor" d="M831.872 340.864 512 652.672 192.128 340.864a30.592 30.592 0 0 0-42.752 0 29.12 29.12 0 0 0 0 41.6L489.664 714.24a32 32 0 0 0 44.672 0l340.288-331.712a29.12 29.12 0 0 0 0-41.728 30.592 30.592 0 0 0-42.752 0z"></path></svg></i><!--v-if--><!--v-if--><!--v-if--><!--v-if--><!--v-if--><!--v-if--></span></span></div><!-- append slot --><!--v-if--></div></div></div><div data-v-d57864b0="" class="el-dropdown"><button data-v-d57864b0="" aria-disabled="false" type="button" class="el-button el-button--default more-dropdown-button el-tooltip__trigger el-tooltip__trigger" id="el-id-4890-267" role="button" tabindex="0" aria-controls="el-id-4890-268" aria-expanded="false" aria-haspopup="menu"><!--v-if--><span class=""><span data-v-d57864b0="" aria-hidden="true" aria-label="" class="material-design-icon dots-horizontal-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16,12A2,2 0 0,1 18,10A2,2 0 0,1 20,12A2,2 0 0,1 18,14A2,2 0 0,1 16,12M10,12A2,2 0 0,1 12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12M4,12A2,2 0 0,1 6,10A2,2 0 0,1 8,12A2,2 0 0,1 6,14A2,2 0 0,1 4,12Z"><!----></path></svg></span></span></button><!--v-if--></div><button data-v-d57864b0="" aria-disabled="false" type="button" class="el-button el-button--default is-text border-0 expand-collapse"><!--v-if--><span class=""><span data-v-d57864b0="" aria-hidden="true" class="material-design-icon chevron-up-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z"><!----></path></svg></span></span></button></div><!----><div data-v-32263c76="" class="vue-recycle-scroller ready direction-vertical log-lines"><div class="vue-recycle-scroller__slot"></div><div class="vue-recycle-scroller__item-wrapper" style="min-height: 4122px;"><div class="vue-recycle-scroller__item-view" style="transform: translateY(-9999px) translateX(0px);"><div data-v-32263c76="" data-index="0"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:39.648</span></div><span data-v-6f75b6ee="" class="message">  Preparing metadata (setup.py): started</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(-9999px) translateX(0px);"><div data-v-32263c76="" data-index="1"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:39.639</span></div><span data-v-6f75b6ee="" class="message">  Downloading pypi-2.1.tar.gz (997 bytes)</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(-9999px) translateX(0px);"><div data-v-32263c76="" data-index="2"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:40.429</span></div><span data-v-6f75b6ee="" class="message">  Downloading python_http_client-3.3.7-py3-none-any.whl (8.4 kB)</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(-9999px) translateX(0px);"><div data-v-32263c76="" data-index="3"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:40.452</span></div><span data-v-6f75b6ee="" class="message">Collecting starkbank-ecdsa&gt;=2.0.1 (from sendgrid==6.11.0-&gt;-r requirements.txt (line 4))</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(-9999px) translateX(0px);"><div data-v-32263c76="" data-index="4"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:40.457</span></div><span data-v-6f75b6ee="" class="message">  Downloading starkbank-ecdsa-2.2.0.tar.gz (14 kB)</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(-9999px) translateX(0px);"><div data-v-32263c76="" data-index="5"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:40.472</span></div><span data-v-6f75b6ee="" class="message">  Preparing metadata (setup.py): started</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(-9999px) translateX(0px);"><div data-v-32263c76="" data-index="6"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:40.868</span></div><span data-v-6f75b6ee="" class="message">  Preparing metadata (setup.py): finished with status 'done'</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(-9999px) translateX(0px);"><div data-v-32263c76="" data-index="7"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:40.906</span></div><span data-v-6f75b6ee="" class="message">Requirement already satisfied: typing-extensions&gt;=4.2.0 in /usr/local/lib/python3.11/site-packages (from SQLAlchemy==2.0.23-&gt;-r requirements.txt (line 5)) (4.9.0)</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(-9999px) translateX(0px);"><div data-v-32263c76="" data-index="8"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--info header-badge log-level el-tag noselect fw-bold">DEBUG</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:36.379</span></div><span data-v-6f75b6ee="" class="message">Image pulled [ghcr.io/kestra-io/pydata:latest]</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(-9999px) translateX(0px);"><div data-v-32263c76="" data-index="9"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--info header-badge log-level el-tag noselect fw-bold">DEBUG</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:36.731</span></div><span data-v-6f75b6ee="" class="message">Starting command with container id 2d739f5b595ae58331441bd469086b2b5f8bbd218b4b9d41e19079924dbb2154 [/bin/sh -c pip install -r requirements.txt
+python main.py]</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(-9999px) translateX(0px);"><div data-v-32263c76="" data-index="10"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:37.839</span></div><span data-v-6f75b6ee="" class="message">Collecting boto3==1.29.3 (from -r requirements.txt (line 1))</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(-9999px) translateX(0px);"><div data-v-32263c76="" data-index="11"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:37.886</span></div><span data-v-6f75b6ee="" class="message">  Downloading boto3-1.29.3-py3-none-any.whl.metadata (6.7 kB)</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(-9999px) translateX(0px);"><div data-v-32263c76="" data-index="68"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:42.960</span></div><span data-v-6f75b6ee="" class="message">  Building wheel for starkbank-ecdsa (setup.py): finished with status 'done'</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(-9999px) translateX(0px);"><div data-v-32263c76="" data-index="71"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:42.969</span></div><span data-v-6f75b6ee="" class="message">Successfully built pypi starkbank-ecdsa</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(-9999px) translateX(0px);"><div data-v-32263c76="" data-index="72"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:43.497</span></div><span data-v-6f75b6ee="" class="message">Installing collected packages: starkbank-ecdsa, pypi, urllib3, SQLAlchemy, python-http-client, pyodbc, psycopg2-binary, jmespath, et-xmlfile, sendgrid, pandas, openpyxl, botocore, s3transfer, boto3</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(-9999px) translateX(0px);"><div data-v-32263c76="" data-index="73"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:43.531</span></div><span data-v-6f75b6ee="" class="message">  Attempting uninstall: urllib3</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(-9999px) translateX(0px);"><div data-v-32263c76="" data-index="74"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:43.548</span></div><span data-v-6f75b6ee="" class="message">    Found existing installation: urllib3 2.1.0</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(3370px) translateX(0px);"><div data-v-32263c76="" data-index="75"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:43.564</span></div><span data-v-6f75b6ee="" class="message">      Successfully uninstalled urllib3-2.1.0</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(3406px) translateX(0px);"><div data-v-32263c76="" data-index="76"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:43.647</span></div><span data-v-6f75b6ee="" class="message">  Attempting uninstall: SQLAlchemy</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(3442px) translateX(0px);"><div data-v-32263c76="" data-index="77"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:43.658</span></div><span data-v-6f75b6ee="" class="message">    Found existing installation: SQLAlchemy 2.0.24</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(3478px) translateX(0px);"><div data-v-32263c76="" data-index="78"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:43.683</span></div><span data-v-6f75b6ee="" class="message">    Uninstalling SQLAlchemy-2.0.24:</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(3514px) translateX(0px);"><div data-v-32263c76="" data-index="79"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:43.782</span></div><span data-v-6f75b6ee="" class="message">      Successfully uninstalled SQLAlchemy-2.0.24</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(3550px) translateX(0px);"><div data-v-32263c76="" data-index="80"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:45.556</span></div><span data-v-6f75b6ee="" class="message">  Attempting uninstall: pandas</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(3586px) translateX(0px);"><div data-v-32263c76="" data-index="81"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:45.578</span></div><span data-v-6f75b6ee="" class="message">    Found existing installation: pandas 2.1.4</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(3622px) translateX(0px);"><div data-v-32263c76="" data-index="82"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:45.780</span></div><span data-v-6f75b6ee="" class="message">    Uninstalling pandas-2.1.4:</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(3658px) translateX(0px);"><div data-v-32263c76="" data-index="83"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:46.355</span></div><span data-v-6f75b6ee="" class="message">      Successfully uninstalled pandas-2.1.4</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(3694px) translateX(0px);"><div data-v-32263c76="" data-index="84"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--success header-badge log-level el-tag noselect fw-bold">INFO</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:53.684</span></div><span data-v-6f75b6ee="" class="message">Successfully installed SQLAlchemy-2.0.23 boto3-1.29.3 botocore-1.32.3 et-xmlfile-1.1.0 jmespath-1.0.1 openpyxl-3.1.2 pandas-2.1.3 psycopg2-binary-2.9.9 pyodbc-4.0.39 pypi-2.1 python-http-client-3.3.7 s3transfer-0.7.0 sendgrid-6.11.0 starkbank-ecdsa-2.2.0 urllib3-2.0.7</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(3750px) translateX(0px);"><div data-v-32263c76="" data-index="85"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--warning header-badge log-level el-tag noselect fw-bold">WARN</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:53.692</span></div><span data-v-6f75b6ee="" class="message">WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(3806px) translateX(0px);"><div data-v-32263c76="" data-index="86"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--warning header-badge log-level el-tag noselect fw-bold">WARN</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:54.999</span></div><span data-v-6f75b6ee="" class="message">Traceback (most recent call last):</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(3842px) translateX(0px);"><div data-v-32263c76="" data-index="87"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--warning header-badge log-level el-tag noselect fw-bold">WARN</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:55.003</span></div><span data-v-6f75b6ee="" class="message">  File "/tmp/kestra-wd/tmp/2kMA5r84nBxk4pialog6CN/main.py", line 3, in &lt;module&gt;</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(3878px) translateX(0px);"><div data-v-32263c76="" data-index="88"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--warning header-badge log-level el-tag noselect fw-bold">WARN</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:55.006</span></div><span data-v-6f75b6ee="" class="message">    import pyodbc</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(3914px) translateX(0px);"><div data-v-32263c76="" data-index="89"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--warning header-badge log-level el-tag noselect fw-bold">WARN</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:55.009</span></div><span data-v-6f75b6ee="" class="message">ImportError: libodbc.so.2: cannot open shared object file: No such file or directory</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(3950px) translateX(0px);"><div data-v-32263c76="" data-index="90"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="el-tag--danger header-badge log-level el-tag noselect fw-bold">ERROR</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:55.962</span></div><span data-v-6f75b6ee="" class="message">Command failed with code 1</span></div></div><!----></div></div><div class="vue-recycle-scroller__item-view" style="transform: translateY(3986px) translateX(0px);"><div data-v-32263c76="" data-index="91"><div data-v-6f75b6ee="" data-v-32263c76="" class="line font-monospace"><span data-v-6f75b6ee="" class="header-badge log-level el-tag noselect fw-bold">TRACE</span><div data-v-6f75b6ee="" class="log-content d-inline-block"><div data-v-6f75b6ee="" class="header d-inline-block me-3"><span data-v-6f75b6ee="" class="header-badge">2024-01-03 13:12:55.962</span></div><span data-v-6f75b6ee="" class="message">io.kestra.plugin.scripts.exec.scripts.runners.ScriptException: Command failed with code 1
+	at io.kestra.plugin.scripts.exec.scripts.runners.DockerScriptRunner.run(DockerScriptRunner.java:171)
+	at io.kestra.plugin.scripts.exec.scripts.runners.CommandsWrapper.run(CommandsWrapper.java:159)
+	at io.kestra.plugin.scripts.python.Commands.run(Commands.java:275)
+	at io.kestra.plugin.scripts.python.Commands.run(Commands.java:20)
+	at io.kestra.core.runners.Worker$WorkerThread.run(Worker.java:684)
+</span></div></div><!----></div></div></div><div class="vue-recycle-scroller__slot"></div><div data-v-b329ee4c="" class="resize-observer" tabindex="-1"><object aria-hidden="true" tabindex="-1" type="text/html" data="./3zZEPNwInmzfym7q8NicU2 _ Kestra_files/saved_resource(1).html"></object></div></div></div></div></div></div></div></div></div></div></main><div class="v-tour"><!----></div></div>
+    </div>
+
+    
+
+
+<div id="el-popper-container-4890"><div class="el-popper is-pure is-light el-autocomplete__popper global-search-popper" tabindex="-1" aria-hidden="true" role="listbox" id="el-id-4890-148" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom-start" style="z-index: 2016; position: absolute; inset: 67px auto auto 1125px; display: none;"><div class="el-autocomplete-suggestion" role="region" style="outline: none;"><div class="el-scrollbar" id="el-autocomplete-9724" role="listbox"><div class="el-autocomplete-suggestion__wrap el-scrollbar__wrap el-scrollbar__wrap--hidden-default"><ul class="el-scrollbar__view el-autocomplete-suggestion__list" style=""></ul></div><div class="el-scrollbar__bar is-horizontal" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div></div><div class="el-scrollbar__bar is-vertical" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div></div></div></div><span class="el-popper__arrow" data-popper-arrow="" style="position: absolute; left: 0px;"></span></div><div class="el-popper is-pure is-light el-dropdown__popper" tabindex="-1" aria-hidden="true" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom" style="z-index: 2017; position: absolute; inset: 67px auto auto 1846px; display: none;"><div class="el-scrollbar"><div class="el-scrollbar__wrap el-scrollbar__wrap--hidden-default"><div class="el-scrollbar__view el-dropdown__list" style=""><ul data-v-d6204049="" class="el-dropdown-menu" tabindex="-1" role="menu" aria-labelledby="el-id-4890-149" id="el-id-4890-150" style="outline: none;"><a data-v-d6204049="" href="https://kestra.io/slack" target="_blank" class="d-flex gap-2 el-dropdown-menu__item"><span data-v-d6204049="" class="align-middle material-design-icon help-box-icon align-middle" aria-hidden="true" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11,18H13V16H11V18M12,6A4,4 0 0,0 8,10H10A2,2 0 0,1 12,8A2,2 0 0,1 14,10C14,12 11,11.75 11,15H13C13,12.75 16,12.5 16,10A4,4 0 0,0 12,6M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3Z"><!----></path></svg></span> Live help</a><a data-v-d6204049="" href="https://kestra.io/docs" target="_blank" class="d-flex gap-2 el-dropdown-menu__item"><span data-v-d6204049="" class="align-middle material-design-icon book-multiple-outline-icon align-middle" aria-hidden="true" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 2A2 2 0 0 1 21 4V16A2 2 0 0 1 19 18H9A2 2 0 0 1 7 16V4A2 2 0 0 1 9 2H19M19 4H16V10L13.5 7.75L11 10V4H9V16H19M3 20A2 2 0 0 0 5 22H17V20H5V6H3Z"><!----></path></svg></span> Documentation</a><a data-v-d6204049="" href="http://172.24.30.33:8080/ui/plugins" class="d-flex gap-2 el-dropdown-menu__item"><span data-v-d6204049="" class="align-middle material-design-icon google-circles-extended-icon align-middle" aria-hidden="true" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18,19C16.89,19 16,18.1 16,17C16,15.89 16.89,15 18,15A2,2 0 0,1 20,17A2,2 0 0,1 18,19M18,13A4,4 0 0,0 14,17A4,4 0 0,0 18,21A4,4 0 0,0 22,17A4,4 0 0,0 18,13M12,11.1A1.9,1.9 0 0,0 10.1,13A1.9,1.9 0 0,0 12,14.9A1.9,1.9 0 0,0 13.9,13A1.9,1.9 0 0,0 12,11.1M6,19C4.89,19 4,18.1 4,17C4,15.89 4.89,15 6,15A2,2 0 0,1 8,17A2,2 0 0,1 6,19M6,13A4,4 0 0,0 2,17A4,4 0 0,0 6,21A4,4 0 0,0 10,17A4,4 0 0,0 6,13M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8C10.89,8 10,7.1 10,6C10,4.89 10.89,4 12,4M12,10A4,4 0 0,0 16,6A4,4 0 0,0 12,2A4,4 0 0,0 8,6A4,4 0 0,0 12,10Z"><!----></path></svg></span> Plugins</a><a data-v-d6204049="" href="https://github.com/kestra-io/kestra/issues" target="_blank" class="d-flex gap-2 el-dropdown-menu__item"><span data-v-d6204049="" class="align-middle material-design-icon github-icon align-middle" aria-hidden="true" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6,9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z"><!----></path></svg></span> Open a GitHub issue</a><a data-v-d6204049="" href="https://kestra.io/slack" target="_blank" class="d-flex gap-2 el-dropdown-menu__item"><span data-v-d6204049="" class="align-middle material-design-icon slack-icon align-middle" aria-hidden="true" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6,15A2,2 0 0,1 4,17A2,2 0 0,1 2,15A2,2 0 0,1 4,13H6V15M7,15A2,2 0 0,1 9,13A2,2 0 0,1 11,15V20A2,2 0 0,1 9,22A2,2 0 0,1 7,20V15M9,7A2,2 0 0,1 7,5A2,2 0 0,1 9,3A2,2 0 0,1 11,5V7H9M9,8A2,2 0 0,1 11,10A2,2 0 0,1 9,12H4A2,2 0 0,1 2,10A2,2 0 0,1 4,8H9M17,10A2,2 0 0,1 19,8A2,2 0 0,1 21,10A2,2 0 0,1 19,12H17V10M16,10A2,2 0 0,1 14,12A2,2 0 0,1 12,10V5A2,2 0 0,1 14,3A2,2 0 0,1 16,5V10M14,18A2,2 0 0,1 16,20A2,2 0 0,1 14,22A2,2 0 0,1 12,20V18H14M14,17A2,2 0 0,1 12,15A2,2 0 0,1 14,13H19A2,2 0 0,1 21,15A2,2 0 0,1 19,17H14Z"><!----></path></svg></span> Join the Community</a><a data-v-d6204049="" href="https://github.com/kestra-io/kestra/releases/tag/v0.13.8" target="_blank" class="el-dropdown-menu__item"> New version available! </a></ul></div></div><div class="el-scrollbar__bar is-horizontal" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div></div><div class="el-scrollbar__bar is-vertical" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div></div></div><span class="el-popper__arrow" data-popper-arrow="" style="position: absolute; left: 0px;"></span></div><!--v-if--><!--v-if--><!--v-if--><!--v-if--><div class="el-popper is-pure is-light el-select__popper" tabindex="-1" aria-hidden="true" role="tooltip" id="el-id-4890-242" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom-start" style="z-index: 2041; position: absolute; inset: 260px auto auto 1669px; display: none;"><div class="el-select-dropdown" style="min-width: 128px;"><div class="el-scrollbar" style=""><div class="el-select-dropdown__wrap el-scrollbar__wrap el-scrollbar__wrap--hidden-default"><ul class="el-scrollbar__view el-select-dropdown__list" style=""><!--v-if--><li data-v-d57864b0="" class="el-select-dropdown__item selected"><span>Attempt 1</span></li></ul></div><div class="el-scrollbar__bar is-horizontal" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div></div><div class="el-scrollbar__bar is-vertical" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div></div></div><!--v-if--></div><span class="el-popper__arrow" data-popper-arrow="" style="position: absolute; left: 0px;"></span></div><div class="el-popper is-pure is-light el-dropdown__popper" tabindex="-1" aria-hidden="true" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom" style="z-index: 2042; position: absolute; inset: 260px auto auto 1822px; display: none;"><div class="el-scrollbar"><div class="el-scrollbar__wrap el-scrollbar__wrap--hidden-default"><div class="el-scrollbar__view el-dropdown__list" style=""><ul data-v-d57864b0="" class="el-dropdown-menu" tabindex="-1" role="menu" aria-labelledby="el-id-4890-243" id="el-id-4890-244" style="outline: none;"><!----><!--v-if--><li data-el-collection-item="" aria-disabled="false" class="el-dropdown-menu__item" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon chart-areaspline-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17.45,15.18L22,7.31V19L22,21H2V3H4V15.54L9.5,6L16,9.78L20.24,2.45L21.97,3.45L16.74,12.5L10.23,8.75L4.31,19H6.57L10.96,11.44L17.45,15.18Z"><!----></path></svg></span></i>Metrics</li><!----><!--v-if--><li data-el-collection-item="" aria-disabled="true" class="el-dropdown-menu__item is-disabled" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon location-exit-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22 12L18 8V11H10V13H18V16M20 18A10 10 0 1 1 20 6H17.27A8 8 0 1 0 17.27 18Z"><!----></path></svg></span></i>Outputs</li><!----><span class="el-tooltip__trigger"><!--v-if--><li data-el-collection-item="" class="el-dropdown-menu__item" aria-disabled="false" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon play-box-multiple-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4,6H2V20A2,2 0 0,0 4,22H18V20H4V6M20,2H8A2,2 0 0,0 6,4V16A2,2 0 0,0 8,18H20A2,2 0 0,0 22,16V4A2,2 0 0,0 20,2M12,14.5V5.5L18,10L12,14.5Z"><!----></path></svg></span></i>Replay</li></span><!----><!--v-if--><li data-el-collection-item="" aria-disabled="false" class="el-dropdown-menu__item" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon state-machine-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6.27 17.05C6.72 17.58 7 18.25 7 19C7 20.66 5.66 22 4 22S1 20.66 1 19 2.34 16 4 16C4.18 16 4.36 16 4.53 16.05L7.6 10.69L5.86 9.7L9.95 8.58L11.07 12.67L9.33 11.68L6.27 17.05M20 16C18.7 16 17.6 16.84 17.18 18H11V16L8 19L11 22V20H17.18C17.6 21.16 18.7 22 20 22C21.66 22 23 20.66 23 19S21.66 16 20 16M12 8C12.18 8 12.36 8 12.53 7.95L15.6 13.31L13.86 14.3L17.95 15.42L19.07 11.33L17.33 12.32L14.27 6.95C14.72 6.42 15 5.75 15 5C15 3.34 13.66 2 12 2S9 3.34 9 5 10.34 8 12 8Z"><!----></path></svg></span></i><span>Change status</span><!----></li><!--v-if--><li data-el-collection-item="" flow-source="id: defaulters_report
+namespace: production
+description: &quot;report of all mattilda&#39;s defaulters&quot;
+
+
+tasks:
+  - id: defaulters_report
+    type: io.kestra.core.tasks.flows.WorkingDirectory
+    tasks:
+    - id: cloneRepository
+      type: io.kestra.plugin.git.Clone
+      url: https://github.com/sperezg6/reporte_deudores
+      branch: main
+      username: sperezg6
+      password: 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
+
+    - id: python
+      type: io.kestra.plugin.scripts.python.Commands
+      warningOnStdErr: false
+      docker:
+        image: ghcr.io/kestra-io/pydata:latest
+      beforeCommands:
+        - pip install -r requirements.txt
+      commands:
+        - python main.py
+
+triggers:
+  - id: trigger
+    type: io.kestra.core.models.triggers.types.Schedule
+    cron: &quot;0 15,20 * * *&quot;
+    disabled: false" aria-disabled="false" class="el-dropdown-menu__item" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon code-tags-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M14.6,16.6L19.2,12L14.6,7.4L16,6L22,12L16,18L14.6,16.6M9.4,16.6L4.8,12L9.4,7.4L8,6L2,12L8,18L9.4,16.6Z"><!----></path></svg></span></i><span data-v-7accd95d="">Show task source</span><!----></li><!--v-if--><li data-el-collection-item="" aria-disabled="false" class="el-dropdown-menu__item" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon download-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z"><!----></path></svg></span></i>Download logs</li></ul></div></div><div class="el-scrollbar__bar is-horizontal" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div></div><div class="el-scrollbar__bar is-vertical" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div></div></div><span class="el-popper__arrow" data-popper-arrow="" style="position: absolute; left: 0px;"></span></div><!--v-if--><!--v-if--><div class="el-popper is-pure is-light el-select__popper" tabindex="-1" aria-hidden="true" role="tooltip" id="el-id-4890-254" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom-start" style="z-index: 2043; position: absolute; inset: 350px auto auto 1669px; display: none;"><div class="el-select-dropdown" style="min-width: 128px;"><div class="el-scrollbar" style=""><div class="el-select-dropdown__wrap el-scrollbar__wrap el-scrollbar__wrap--hidden-default"><ul class="el-scrollbar__view el-select-dropdown__list" style=""><!--v-if--><li data-v-d57864b0="" class="el-select-dropdown__item selected"><span>Attempt 1</span></li></ul></div><div class="el-scrollbar__bar is-horizontal" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div></div><div class="el-scrollbar__bar is-vertical" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div></div></div><!--v-if--></div><span class="el-popper__arrow" data-popper-arrow="" style="position: absolute; left: 0px;"></span></div><div class="el-popper is-pure is-light el-dropdown__popper" tabindex="-1" aria-hidden="true" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom" style="z-index: 2044; position: absolute; inset: 350px auto auto 1822px; display: none;"><div class="el-scrollbar"><div class="el-scrollbar__wrap el-scrollbar__wrap--hidden-default"><div class="el-scrollbar__view el-dropdown__list" style=""><ul data-v-d57864b0="" class="el-dropdown-menu" tabindex="-1" role="menu" aria-labelledby="el-id-4890-255" id="el-id-4890-256" style="outline: none;"><!----><!--v-if--><li data-el-collection-item="" aria-disabled="false" class="el-dropdown-menu__item" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon chart-areaspline-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17.45,15.18L22,7.31V19L22,21H2V3H4V15.54L9.5,6L16,9.78L20.24,2.45L21.97,3.45L16.74,12.5L10.23,8.75L4.31,19H6.57L10.96,11.44L17.45,15.18Z"><!----></path></svg></span></i>Metrics</li><!----><!--v-if--><li data-el-collection-item="" aria-disabled="false" class="el-dropdown-menu__item" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon location-exit-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22 12L18 8V11H10V13H18V16M20 18A10 10 0 1 1 20 6H17.27A8 8 0 1 0 17.27 18Z"><!----></path></svg></span></i>Outputs</li><!----><span class="el-tooltip__trigger"><!--v-if--><li data-el-collection-item="" class="el-dropdown-menu__item" aria-disabled="false" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon play-box-multiple-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4,6H2V20A2,2 0 0,0 4,22H18V20H4V6M20,2H8A2,2 0 0,0 6,4V16A2,2 0 0,0 8,18H20A2,2 0 0,0 22,16V4A2,2 0 0,0 20,2M12,14.5V5.5L18,10L12,14.5Z"><!----></path></svg></span></i>Replay</li></span><!----><!--v-if--><li data-el-collection-item="" aria-disabled="false" class="el-dropdown-menu__item" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon state-machine-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6.27 17.05C6.72 17.58 7 18.25 7 19C7 20.66 5.66 22 4 22S1 20.66 1 19 2.34 16 4 16C4.18 16 4.36 16 4.53 16.05L7.6 10.69L5.86 9.7L9.95 8.58L11.07 12.67L9.33 11.68L6.27 17.05M20 16C18.7 16 17.6 16.84 17.18 18H11V16L8 19L11 22V20H17.18C17.6 21.16 18.7 22 20 22C21.66 22 23 20.66 23 19S21.66 16 20 16M12 8C12.18 8 12.36 8 12.53 7.95L15.6 13.31L13.86 14.3L17.95 15.42L19.07 11.33L17.33 12.32L14.27 6.95C14.72 6.42 15 5.75 15 5C15 3.34 13.66 2 12 2S9 3.34 9 5 10.34 8 12 8Z"><!----></path></svg></span></i><span>Change status</span><!----></li><!--v-if--><li data-el-collection-item="" flow-source="id: defaulters_report
+namespace: production
+description: &quot;report of all mattilda&#39;s defaulters&quot;
+
+
+tasks:
+  - id: defaulters_report
+    type: io.kestra.core.tasks.flows.WorkingDirectory
+    tasks:
+    - id: cloneRepository
+      type: io.kestra.plugin.git.Clone
+      url: https://github.com/sperezg6/reporte_deudores
+      branch: main
+      username: sperezg6
+      password: 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
+
+    - id: python
+      type: io.kestra.plugin.scripts.python.Commands
+      warningOnStdErr: false
+      docker:
+        image: ghcr.io/kestra-io/pydata:latest
+      beforeCommands:
+        - pip install -r requirements.txt
+      commands:
+        - python main.py
+
+triggers:
+  - id: trigger
+    type: io.kestra.core.models.triggers.types.Schedule
+    cron: &quot;0 15,20 * * *&quot;
+    disabled: false" aria-disabled="false" class="el-dropdown-menu__item" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon code-tags-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M14.6,16.6L19.2,12L14.6,7.4L16,6L22,12L16,18L14.6,16.6M9.4,16.6L4.8,12L9.4,7.4L8,6L2,12L8,18L9.4,16.6Z"><!----></path></svg></span></i><span data-v-7accd95d="">Show task source</span><!----></li><!--v-if--><li data-el-collection-item="" aria-disabled="false" class="el-dropdown-menu__item" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon download-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z"><!----></path></svg></span></i>Download logs</li></ul></div></div><div class="el-scrollbar__bar is-horizontal" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div></div><div class="el-scrollbar__bar is-vertical" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div></div></div><span class="el-popper__arrow" data-popper-arrow="" style="position: absolute; left: 0px;"></span></div><!--v-if--><!--v-if--><div class="el-popper is-pure is-light el-select__popper" tabindex="-1" aria-hidden="true" role="tooltip" id="el-id-4890-266" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom-start" style="z-index: 2045; position: absolute; inset: 440px auto auto 1669px; display: none;"><div class="el-select-dropdown" style="min-width: 128px;"><div class="el-scrollbar" style=""><div class="el-select-dropdown__wrap el-scrollbar__wrap el-scrollbar__wrap--hidden-default"><ul class="el-scrollbar__view el-select-dropdown__list" style=""><!--v-if--><li data-v-d57864b0="" class="el-select-dropdown__item selected"><span>Attempt 1</span></li></ul></div><div class="el-scrollbar__bar is-horizontal" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div></div><div class="el-scrollbar__bar is-vertical" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div></div></div><!--v-if--></div><span class="el-popper__arrow" data-popper-arrow="" style="position: absolute; left: 0px;"></span></div><div class="el-popper is-pure is-light el-dropdown__popper" tabindex="-1" aria-hidden="true" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom" style="z-index: 2046; position: absolute; inset: 440px auto auto 1822px; display: none;"><div class="el-scrollbar"><div class="el-scrollbar__wrap el-scrollbar__wrap--hidden-default"><div class="el-scrollbar__view el-dropdown__list" style=""><ul data-v-d57864b0="" class="el-dropdown-menu" tabindex="-1" role="menu" aria-labelledby="el-id-4890-267" id="el-id-4890-268" style="outline: none;"><!----><!--v-if--><li data-el-collection-item="" aria-disabled="false" class="el-dropdown-menu__item" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon chart-areaspline-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17.45,15.18L22,7.31V19L22,21H2V3H4V15.54L9.5,6L16,9.78L20.24,2.45L21.97,3.45L16.74,12.5L10.23,8.75L4.31,19H6.57L10.96,11.44L17.45,15.18Z"><!----></path></svg></span></i>Metrics</li><!----><!--v-if--><li data-el-collection-item="" aria-disabled="true" class="el-dropdown-menu__item is-disabled" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon location-exit-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22 12L18 8V11H10V13H18V16M20 18A10 10 0 1 1 20 6H17.27A8 8 0 1 0 17.27 18Z"><!----></path></svg></span></i>Outputs</li><!----><span class="el-tooltip__trigger"><!--v-if--><li data-el-collection-item="" class="el-dropdown-menu__item" aria-disabled="false" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon play-box-multiple-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4,6H2V20A2,2 0 0,0 4,22H18V20H4V6M20,2H8A2,2 0 0,0 6,4V16A2,2 0 0,0 8,18H20A2,2 0 0,0 22,16V4A2,2 0 0,0 20,2M12,14.5V5.5L18,10L12,14.5Z"><!----></path></svg></span></i>Replay</li></span><!----><!--v-if--><li data-el-collection-item="" aria-disabled="false" class="el-dropdown-menu__item" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon state-machine-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6.27 17.05C6.72 17.58 7 18.25 7 19C7 20.66 5.66 22 4 22S1 20.66 1 19 2.34 16 4 16C4.18 16 4.36 16 4.53 16.05L7.6 10.69L5.86 9.7L9.95 8.58L11.07 12.67L9.33 11.68L6.27 17.05M20 16C18.7 16 17.6 16.84 17.18 18H11V16L8 19L11 22V20H17.18C17.6 21.16 18.7 22 20 22C21.66 22 23 20.66 23 19S21.66 16 20 16M12 8C12.18 8 12.36 8 12.53 7.95L15.6 13.31L13.86 14.3L17.95 15.42L19.07 11.33L17.33 12.32L14.27 6.95C14.72 6.42 15 5.75 15 5C15 3.34 13.66 2 12 2S9 3.34 9 5 10.34 8 12 8Z"><!----></path></svg></span></i><span>Change status</span><!----></li><!--v-if--><li data-el-collection-item="" flow-source="id: defaulters_report
+namespace: production
+description: &quot;report of all mattilda&#39;s defaulters&quot;
+
+
+tasks:
+  - id: defaulters_report
+    type: io.kestra.core.tasks.flows.WorkingDirectory
+    tasks:
+    - id: cloneRepository
+      type: io.kestra.plugin.git.Clone
+      url: https://github.com/sperezg6/reporte_deudores
+      branch: main
+      username: sperezg6
+      password: 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
+
+    - id: python
+      type: io.kestra.plugin.scripts.python.Commands
+      warningOnStdErr: false
+      docker:
+        image: ghcr.io/kestra-io/pydata:latest
+      beforeCommands:
+        - pip install -r requirements.txt
+      commands:
+        - python main.py
+
+triggers:
+  - id: trigger
+    type: io.kestra.core.models.triggers.types.Schedule
+    cron: &quot;0 15,20 * * *&quot;
+    disabled: false" aria-disabled="false" class="el-dropdown-menu__item" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon code-tags-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M14.6,16.6L19.2,12L14.6,7.4L16,6L22,12L16,18L14.6,16.6M9.4,16.6L4.8,12L9.4,7.4L8,6L2,12L8,18L9.4,16.6Z"><!----></path></svg></span></i><span data-v-7accd95d="">Show task source</span><!----></li><!--v-if--><li data-el-collection-item="" aria-disabled="false" class="el-dropdown-menu__item" tabindex="-1" role="menuitem"><i class="el-icon"><span aria-hidden="true" class="material-design-icon download-icon" role="img"><svg fill="currentColor" class="material-design-icon__svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z"><!----></path></svg></span></i>Download logs</li></ul></div></div><div class="el-scrollbar__bar is-horizontal" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div></div><div class="el-scrollbar__bar is-vertical" style="display: none;"><div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div></div></div><span class="el-popper__arrow" data-popper-arrow="" style="position: absolute; left: 0px;"></span></div><!--v-if--><!--v-if--><!--v-if--></div><div class="monaco-aria-container"><div class="monaco-alert" role="alert" aria-atomic="true"></div><div class="monaco-alert" role="alert" aria-atomic="true"></div><div class="monaco-status" role="complementary" aria-live="polite" aria-atomic="true"></div><div class="monaco-status" role="complementary" aria-live="polite" aria-atomic="true"></div></div></body></html>
