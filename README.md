@@ -35,4 +35,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or collaboration opportunities, feel free to reach out to me at [your-email@example.com].
+For any inquiries or collaboration opportunities, feel free to reach out to me at [spg1824@gmail.com].
