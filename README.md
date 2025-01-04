@@ -1,8 +1,11 @@
-# photo_portafolio
+# Photo Portafolio
 
 A captivating photo portfolio website built with HTML and CSS, showcasing my passion for photography and web development.
 
+![Portafolio](images/gallery/main.png)
+![Portafolio2](images/gallery/second.png)
 ![Photo Portfolio Screenshot](images/gallery/F691B208-5A79-4FBB-A61A-C7069E8F610C_1_105_c.jpeg)
+
 ## Features
 
 - **Responsive Design:** The website is optimized for various screen sizes and devices, providing a seamless viewing experience.
